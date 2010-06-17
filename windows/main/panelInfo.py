@@ -205,8 +205,14 @@ class infoPosition3D(infoPosition3DBase):
 		self.x = x
 		self.y = y
 		self.z = z
-		position = "[%s, %s, %s]" % (x, y, z)
+		position = "a___ b____ c____ d____ e____ f_______ g____ h____ k___ l___ m__ n___ o___ p___ q___ r___ s_____ t___ u___ v___ w_____ x____ y____z [%s, %s, %s]" % (x, y, z)
+		#position = "sadwff"
 		self.PositionLabel.SetLabel(position)
+		self.PositionLabel.Wrap(200)
+		#self.Move((500,500))
+		self.GetSizer().Layout()
+		self.Fit
+		self.Update
 
 	def OnButtonPressed(self, evt):
 		self.starmap.Canvas.Zoom(1, (self.x, self.y))
@@ -408,9 +414,12 @@ class FoldPanel(ArgumentPanel, FoldPanelBase, FileTrackerMixin):
 		cs.SetCaptionStyle(fpb.CAPTIONBAR_RECTANGLE)
 		item = self.FoldBar.AddFoldPanel(group.name, collapsed=False, cbstyle=cs)
 		if isinstance(group, parameters.ObjectParamPosition3d):
-			pospanel = infoPosition3D(item, self.application)
+			#pospanel = infoPosition3D(item, self.application)
+			pospanel = infoPosition3D(self, self.application)
 			pospanel.setPositionLabel(attr.vector.x, attr.vector.y, attr.vector.z)
-			self.FoldBar.AddFoldPanelWindow(item, pospanel, fpb.FPB_ALIGN_WIDTH, 5, 20)
+			pospanel.Show()
+			#self.FoldBar.AddFoldPanelWindow(item, pospanel, fpb.FPB_ALIGN_WIDTH, 5, 20)
+			item.ResizePanel()
 			return
 		elif isinstance(group, parameters.ObjectParamVelocity3d) or isinstance(group, parameters.ObjectParamAcceleration3d):
 			velpanel = infoVelocity3D(item, self.application)

@@ -6,6 +6,7 @@
         <object class="wxStaticText" name="Quantity"/>
         <option>1</option>
         <flag>wxALL|wxEXPAND|wxGROW</flag>
+        <border>1</border>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="Spacer">
@@ -19,6 +20,7 @@
         </object>
         <option>1</option>
         <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <cols>3</cols>
       <rows>1</rows>

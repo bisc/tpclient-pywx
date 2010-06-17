@@ -6,8 +6,8 @@
         <object class="wxStaticText" name="Quantity">
           <style>wxALIGN_LEFT</style>
         </object>
-        <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="Spacer">
@@ -19,8 +19,8 @@
           <label>Player Name</label>
           <style>wxALIGN_LEFT</style>
         </object>
-        <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <object class="spacer">
         <flag>wxALL|wxEXPAND|wxGROW</flag>
@@ -37,15 +37,15 @@
             <face>Sans</face>
             <encoding>UTF-8</encoding>
           </font>
+          <style>wxBU_EXACTFIT</style>
         </object>
         <option>0</option>
-        <flag>wxRIGHT|wxALIGN_RIGHT</flag>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <cols>5</cols>
       <rows>1</rows>
-      <growablecols>2</growablecols>
       <growablecols>3</growablecols>
-      <growablecols>4</growablecols>
       <growablerows>0</growablerows>
     </object>
   </object>

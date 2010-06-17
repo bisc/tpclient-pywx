@@ -4,8 +4,7 @@
     <object class="wxFlexGridSizer">
       <object class="sizeritem">
         <object class="wxStaticText" name="Quantity"/>
-        <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <flag>wxALL|wxALIGN_CENTRE_HORIZONTAL</flag>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="Spacer">
@@ -18,7 +17,7 @@
           <style>wxALIGN_LEFT</style>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
       </object>
       <object class="spacer">
         <flag>wxALL|wxEXPAND|wxGROW</flag>
@@ -26,7 +25,19 @@
       <object class="sizeritem">
         <object class="wxButton" name="SelectObject">
           <label>Select</label>
+          <font>
+            <size>8</size>
+            <style>normal</style>
+            <weight>normal</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Sans</face>
+            <encoding>UTF-8</encoding>
+          </font>
+          <style>wxBU_EXACTFIT</style>
         </object>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <cols>5</cols>
       <rows>1</rows>

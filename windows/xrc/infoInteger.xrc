@@ -8,6 +8,7 @@
         </object>
         <option>1</option>
         <flag>wxALL|wxEXPAND|wxGROW</flag>
+        <border>1</border>
       </object>
       <cols>1</cols>
       <rows>1</rows>

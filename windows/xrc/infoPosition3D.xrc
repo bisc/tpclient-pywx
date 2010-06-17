@@ -7,7 +7,8 @@
           <label>(0, 0, 0)</label>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW</flag>
+        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <object class="spacer">
         <flag>wxALL|wxEXPAND|wxGROW</flag>
@@ -15,11 +16,23 @@
       <object class="sizeritem">
         <object class="wxButton" name="GotoPosition">
           <label>Zoom To Here</label>
+          <font>
+            <size>8</size>
+            <style>normal</style>
+            <weight>normal</weight>
+            <underlined>0</underlined>
+            <family>swiss</family>
+            <face>Sans</face>
+            <encoding>UTF-8</encoding>
+          </font>
+          <style>wxBU_EXACTFIT</style>
         </object>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <cols>3</cols>
       <rows>1</rows>
-      <growablecols>0,1</growablecols>
+      <growablecols>1</growablecols>
       <growablerows>0</growablerows>
     </object>
   </object>
