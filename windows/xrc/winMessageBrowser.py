@@ -83,10 +83,10 @@ def strings():
 	_("F");
 	_("Boards avaliable on the server.");
 	_("<html>\n<body>\n<center>\n        <table cols=1 width=\"100%\" background=\"\">\n                <tr>\n                        <td><b>Subject:</b> Subject goes here!</td>\n                </tr>\n                <tr>\n                        <td>A really cool message body should go here.</td>\n                </tr>\n        </table>\n</center>\n</body>\n</html>");
-	_("Create a new message on the current board.");
 	_("New");
-	_("Goto objects referenced by this message.");
+	_("Create a new message on the current board.");
 	_("Goto");
-	_("Delete this message.");
+	_("Goto objects referenced by this message.");
 	_("Delete");
+	_("Delete this message.");
 	_("Message Browser");

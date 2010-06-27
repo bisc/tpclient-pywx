@@ -5,7 +5,7 @@ allows the player to read them and write new messages to them.
 
 # wxPython imports
 import wx
-import wx.gizmos
+import wx.html
 
 # Local imports
 from windows.winBase import winReportXRC
@@ -21,6 +21,7 @@ class winMessageBrowser(winReportXRC, winMessageBrowserBase):
 		self.application = application
 
 		self.application.gui.Binder(self.application.CacheClass.CacheUpdateEvent, self.OnCacheUpdate)
+		self.Bind(wx.EVT_TREE_SEL_CHANGED, self.OnItemActivated, self.Boards)
 
 	def OnCacheUpdate(self, evt):
 		print("____________________________")
@@ -36,7 +37,7 @@ class winMessageBrowser(winReportXRC, winMessageBrowserBase):
 		root = self.Boards.AddRoot('root')
 		for bid in self.application.cache.boards.keys():
 			messages = self.application.cache.messages[bid]
-			board_item = self.Boards.AppendItem(root, 'board%s' % bid)
+			board_item = self.Boards.AppendItem(root, self.application.cache.boards[bid].name)
 			self.item_to_board[board_item] = self.application.cache.boards[bid]
 			for i, msg in enumerate(messages):
 				message_item = self.Boards.AppendItem(board_item, msg.CurrentOrder.subject)
@@ -44,6 +45,24 @@ class winMessageBrowser(winReportXRC, winMessageBrowserBase):
 			self.Boards.Expand(board_item)
 
 		self.Boards.Expand(root)
+
+	def OnItemActivated(self, evt):
+		print("board: %s\n messages: %s" % (self.item_to_board, self.item_to_message))
+		selected_item = self.Boards.GetSelection()
+		print("selected: %s " % selected_item)
+
+		# Need to compare tree item ids directly, not through has_key
+		# Find among boards
+		for key in self.item_to_board.keys():
+			if key == selected_item:
+				print("board selected, dunno what to do")
+
+		# Find among messages
+		for key in self.item_to_message.keys():
+			if key == selected_item:
+				self.Message.SetPage(self.item_to_message[key].body)
+
+
 
 
 
