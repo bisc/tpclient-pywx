@@ -7,7 +7,7 @@
           <label>(0, 0, 0)</label>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
         <border>1</border>
       </object>
       <object class="spacer">

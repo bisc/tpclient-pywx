@@ -13,11 +13,10 @@
       </object>
       <object class="sizeritem">
         <object class="wxStaticText" name="ObjectName">
-          <label>0</label>
           <style>wxALIGN_LEFT</style>
         </object>
-        <option>1</option>
         <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <border>1</border>
       </object>
       <object class="spacer">
         <flag>wxALL|wxEXPAND|wxGROW</flag>

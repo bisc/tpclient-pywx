@@ -28,6 +28,9 @@ from requirements import graphicsdir
 
 from tp.client.threads import FileTrackerMixin
 
+# Difference between panel width and wrapped labels width . In pixels.
+WRAPPING_SPACING = 50
+
 from windows.xrc.panelInformation import panelInformationBase
 class panelInformation(panelInformationBase):
 	title = _("Information")
@@ -41,8 +44,7 @@ class panelInformation(panelInformationBase):
 		self.DetailsPanel.SetWindowStyle(wx.HSCROLL | wx.VSCROLL)
 		self.ArgumentsPanel = wx.Panel(self.DetailsPanel, -1)
 		self.FoldPanelBar = FoldPanel(self.ArgumentsPanel, self.application)
-		bestsize = self.FoldPanelBar.GetPanelsLength(True, True)
-		self.DetailsPanel.SetVirtualSize((bestsize[1]/2, bestsize[2]))
+
 		self.application.gui.Binder(self.application.gui.SelectObjectEvent, self.OnSelectObject)
 		self.application.gui.Binder(self.application.MediaClass.MediaUpdateEvent,			self.OnMediaUpdate)
 		self.application.gui.Binder(self.application.MediaClass.MediaDownloadDoneEvent,		self.OnMediaDownloadDone)
@@ -142,7 +144,7 @@ def GetPanelForReference(application, parent, type, id, quantity=-1):
 	if "Player Action" in reftype:
 		pass
 	elif "Player" in reftype:
-		panel = infoReferencePlayer(parent)
+		panel = infoReferencePlayer(parent, application)
 		if id == 0:
 			name = "No one"
 		elif id not in tmpcache.players:
@@ -196,35 +198,45 @@ from windows.xrc.infoPosition3D import infoPosition3DBase
 class infoPosition3D(infoPosition3DBase):
 	def __init__(self, parent, application):
 		infoPosition3DBase.__init__(self, parent)
+		self.parent = parent
 		self.application = application
+		
 		from windows.main.panelStarMap import panelStarMap
 		self.starmap = self.application.gui.main.panels[panelStarMap.title]
+		self.panelinfo = self.application.gui.main.panels[panelInformation.title]
 		self.Bind(wx.EVT_BUTTON, self.OnButtonPressed)
 
 	def setPositionLabel(self, x, y, z):
 		self.x = x
 		self.y = y
 		self.z = z
-		position = "a___ b____ c____ d____ e____ f_______ g____ h____ k___ l___ m__ n___ o___ p___ q___ r___ s_____ t___ u___ v___ w_____ x____ y____z [%s, %s, %s]" % (x, y, z)
-		#position = "sadwff"
+		position = "[%s, %s, %s]" % (x, y, z)
 		self.PositionLabel.SetLabel(position)
-		self.PositionLabel.Wrap(200)
-		#self.Move((500,500))
-		self.GetSizer().Layout()
-		self.Fit
-		self.Update
+		# Maximum label width equals to the info panel size
+		# minus button's width and spacing.
+		wrapwidth = self.panelinfo.GetSize().x - self.GotoPosition.GetBestSize().x - WRAPPING_SPACING
+		self.PositionLabel.Wrap(wrapwidth)
+		self.Fit()
 
 	def OnButtonPressed(self, evt):
 		self.starmap.Canvas.Zoom(1, (self.x, self.y))
 
 from windows.xrc.infoVelocity3D import infoVelocity3DBase
 class infoVelocity3D(infoVelocity3DBase):
+	def __init__(self, parent, application):
+		infoVelocity3DBase.__init__(self, parent)
+		self.panelinfo = application.gui.main.panels[panelInformation.title]
+		
 	def setVelocityLabel(self, x, y, z):
 		self.x = x
 		self.y = y
 		self.z = z
 		velocity = "[%s, %s, %s]" % (x, y, z)
 		self.VelocityLabel.SetLabel(velocity)
+		# Maximum label width equals to the info panel size minus spacing.
+		wrapwidth = self.panelinfo.GetSize().x - WRAPPING_SPACING
+		self.VelocityLabel.Wrap(wrapwidth)
+		self.Fit()
 	
 from windows.xrc.infoSize import infoSizeBase
 class infoSize(infoSizeBase):
@@ -233,19 +245,17 @@ class infoSize(infoSizeBase):
 	
 from windows.xrc.infoMedia import infoMediaBase
 class infoMedia(infoMediaBase):
-		
 	def setImage(self, application, image):
-		
 		if image == None:
 			icon = wx.Image(os.path.join(graphicsdir, "unknown-icon.png")).ConvertToBitmap()
 			self.Media.SetBitmap(icon)
 			self.SetSize(self.Media.GetBestSize())
-			self.Layout()
+			self.Fit()
 			return False
 		else:	
 			self.Media.SetBitmap(image)
 			self.SetSize(self.Media.GetBestSize())
-			self.Layout()
+			self.Fit()
 			return True
 
 from windows.xrc.infoInteger import infoIntegerBase
@@ -255,8 +265,9 @@ class infoInteger(infoIntegerBase):
 
 from windows.xrc.infoReferencePlayer import infoReferencePlayerBase
 class infoReferencePlayer(infoReferencePlayerBase):
-	def __init__(self, parent):
+	def __init__(self, parent, application):
 		infoReferencePlayerBase.__init__(self, parent)
+		self.panelinfo = application.gui.main.panels[panelInformation.title]
 		self.Bind(wx.EVT_BUTTON, self.OnButtonPressed)
 
 	def setPlayer(self, name, id, quantity=-1):
@@ -270,6 +281,11 @@ class infoReferencePlayer(infoReferencePlayerBase):
 			self.Spacer.SetSize((10,10))
 			self.Spacer.SetMinSize((10,10))
 		self.PlayerName.SetLabel(name)
+		# Maximum label width equals to the info panel width
+		# minus button's width and spacing.
+		wrapwidth = self.panelinfo.GetSize().x - self.SendMessage.GetBestSize().x - WRAPPING_SPACING
+		self.PlayerName.Wrap(wrapwidth)
+		self.Fit()
 	
 	def OnButtonPressed(self, evt):
 		# FIXME: Should allow sending a message to the player.
@@ -280,6 +296,7 @@ class infoReferenceObject(infoReferenceObjectBase):
 	def __init__(self, parent, application):
 		infoReferenceObjectBase.__init__(self, parent)
 		self.application = application
+		self.panelinfo = application.gui.main.panels[panelInformation.title]
 		self.Bind(wx.EVT_BUTTON, self.OnButtonPressed)
 
 	def setObject(self, name, id, quantity=-1):
@@ -293,6 +310,13 @@ class infoReferenceObject(infoReferenceObjectBase):
 			self.Spacer.SetSize((10,10))
 			self.Spacer.SetMinSize((10,10))
 		self.ObjectName.SetLabel(name)
+		# Maximum label width equals to the info panel width
+		# minus other controls' width and spacing.
+		quantitywidth = self.Quantity.GetBestSize().x
+		buttonwidth = self.SelectObject.GetBestSize().x
+		wrapwidth = self.panelinfo.GetSize().x - quantitywidth - buttonwidth - WRAPPING_SPACING
+		self.ObjectName.Wrap(wrapwidth)
+		self.Fit()
 	
 	def OnButtonPressed(self, evt):
 		self.application.Post(self.application.gui.SelectObjectEvent(self.oid))
@@ -414,12 +438,9 @@ class FoldPanel(ArgumentPanel, FoldPanelBase, FileTrackerMixin):
 		cs.SetCaptionStyle(fpb.CAPTIONBAR_RECTANGLE)
 		item = self.FoldBar.AddFoldPanel(group.name, collapsed=False, cbstyle=cs)
 		if isinstance(group, parameters.ObjectParamPosition3d):
-			#pospanel = infoPosition3D(item, self.application)
-			pospanel = infoPosition3D(self, self.application)
+			pospanel = infoPosition3D(item, self.application)
 			pospanel.setPositionLabel(attr.vector.x, attr.vector.y, attr.vector.z)
-			pospanel.Show()
-			#self.FoldBar.AddFoldPanelWindow(item, pospanel, fpb.FPB_ALIGN_WIDTH, 5, 20)
-			item.ResizePanel()
+			self.FoldBar.AddFoldPanelWindow(item, pospanel, fpb.FPB_ALIGN_WIDTH, 5, 20)
 			return
 		elif isinstance(group, parameters.ObjectParamVelocity3d) or isinstance(group, parameters.ObjectParamAcceleration3d):
 			velpanel = infoVelocity3D(item, self.application)
