@@ -6,7 +6,7 @@
       <object class="wxFlexGridSizer">
         <object class="sizeritem">
           <object class="wxStaticText" name="TitleText">
-            <label>End of turn requested!</label>
+            <label>You have not requested end of turn</label>
             <font>
               <size>14</size>
               <weight>bold</weight>
@@ -15,29 +15,32 @@
             </font>
             <style>wxALIGN_CENTRE</style>
           </object>
-          <flag>wxEXPAND|wxGROW|wxALIGN_CENTRE</flag>
+          <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE</flag>
+          <border>5</border>
         </object>
         <object class="sizeritem">
           <object class="wxStaticText" name="Message">
-            <label>Thanks for requesting end of turn.
-
-The turn will end as soon as the other players get their buttocks into 
-gear and click the end of turn button too.</label>
-            <style>wxALIGN_CENTRE</style>
+            <label>The turn will end as soon as all the players get their buttocks into gear and click the end of turn button. Or turn time runs out.</label>
+            <style>wxALIGN_LEFT</style>
           </object>
+          <flag>wxALL|wxEXPAND|wxGROW|wxALIGN_CENTRE_VERTICAL</flag>
+          <border>5</border>
         </object>
         <object class="sizeritem">
           <object class="wxStaticText" name="WaitingFor">
             <label>Waiting for:</label>
             <font>
-              <size>14</size>
-              <weight>bold</weight>
+              <size>10</size>
+              <style>normal</style>
+              <weight>normal</weight>
+              <underlined>0</underlined>
               <family>swiss</family>
               <face>Sans</face>
+              <encoding>UTF-8</encoding>
             </font>
             <style>wxALIGN_CENTRE</style>
           </object>
-          <flag>wxGROW|wxGROW|wxALL|wxADJUST_MINSIZE</flag>
+          <flag>wxALL|wxEXPAND|wxGROW|wxADJUST_MINSIZE</flag>
           <border>5</border>
         </object>
         <object class="sizeritem">
@@ -48,20 +51,33 @@ gear and click the end of turn button too.</label>
           <flag>wxEXPAND|wxGROW</flag>
         </object>
         <object class="sizeritem">
-          <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
-          <border>3</border>
-          <object class="wxStdDialogButtonSizer">
-            <object class="button">
-              <flag>wxALIGN_RIGHT|wxBOTTOM</flag>
-              <border>5</border>
-              <object class="wxButton" name="wxID_CANCEL">
-                <label>&amp;Cancel</label>
-              </object>
+          <object class="wxBoxSizer">
+            <object class="spacer">
+              <option>1</option>
+              <flag>wxGROW</flag>
             </object>
+            <object class="sizeritem">
+              <object class="wxButton" name="EndTurn">
+                <label>&amp;End turn</label>
+              </object>
+              <flag>wxALL</flag>
+              <border>2</border>
+            </object>
+            <object class="sizeritem">
+              <object class="wxButton" name="Close">
+                <label>&amp;Close</label>
+                <default>1</default>
+              </object>
+              <flag>wxALL</flag>
+              <border>2</border>
+            </object>
+            <orient>wxHORIZONTAL</orient>
           </object>
+          <flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTRE_VERTICAL</flag>
+          <border>2</border>
         </object>
         <cols>1</cols>
-        <rows>3</rows>
+        <rows>5</rows>
         <vgap>0</vgap>
         <hgap>0</hgap>
         <growablecols>0</growablecols>

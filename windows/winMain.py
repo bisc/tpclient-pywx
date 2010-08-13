@@ -407,8 +407,15 @@ class winMain(winBase):
 
 	def RequestEOT(self, evt):
 		"""\
+		Called when Request EOT menu item is clicked.
 		"""
 		self.application.network.Call(self.application.network.RequestEOT)
+		self.Hide()
+		
+		from windows.main.winWaiting import winWaiting
+		win = self.windows[winWaiting.title]
+		win.Show()
+		
 
 	def OnNetworkTimeRemaining(self, evt):
 		if evt.remaining == 0:

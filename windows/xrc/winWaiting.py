@@ -59,16 +59,21 @@ This is so that a the same XRC can be used for both MDI and non-MDI frames.
 		self.Message = XRCCTRL(self, "Message")
 		self.WaitingFor = XRCCTRL(self, "WaitingFor")
 		self.WaitingList = XRCCTRL(self, "WaitingList")
-		self.Cancel = XRCCTRL(self, "wxID_CANCEL")
-		if hasattr(self, "OnCancel"):
-			self.Bind(wx.EVT_BUTTON, self.OnCancel, self.Cancel)
+		self.EndTurn = XRCCTRL(self, "EndTurn")
+		if hasattr(self, "OnEndTurn"):
+			self.Bind(wx.EVT_BUTTON, self.OnEndTurn, self.EndTurn)
+
+		self.Close = XRCCTRL(self, "Close")
+		if hasattr(self, "OnClose"):
+			self.Bind(wx.EVT_BUTTON, self.OnClose, self.Close)
 
 
 
 def strings():
 	pass
-	_("End of turn requested!");
-	_("Thanks for requesting end of turn.\n\nThe turn will end as soon as the other players get their buttocks into gear and click the end of turn button too.");
+	_("You have not requested end of turn");
+	_("The turn will end as soon as all the players get their buttocks into gear and click the end of turn button. Or turn time runs out.");
 	_("Waiting for:");
-	_("&Cancel");
+	_("&End turn");
+	_("&Close");
 	_("TP: Connect to a Server");
