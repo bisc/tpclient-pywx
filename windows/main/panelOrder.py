@@ -50,6 +50,7 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 
 		self.clipboard = None
 		self.ignore = False
+		self.ordertypesbyname = {}
 
 		self.Orders.InsertColumn(TURNS_COL, _("Turns"))
 		self.Orders.SetColumnWidth(TURNS_COL, 40)
@@ -65,6 +66,7 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 		self.Orders.Bind(wx.EVT_LIST_ITEM_DESELECTED, self.OnOrderDeselect)
 		self.Orders.Bind(wx.EVT_RIGHT_UP, self.OnRightClick)
 		self.Bind(wx.EVT_KEY_UP, self.OnKeyUp)
+		self.Bind(wx.EVT_MENU, self.OnOrderMenu)
 
 	def OnKeySkip(self, evt):
 		pass
@@ -181,7 +183,6 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 
 		# Do the clean up first
 		self.Orders.DeleteAllItems()
-		self.Possible.Clear()
 		self.Queues.Clear()
 
 		# Get objects, its queues and possible order types
@@ -218,32 +219,13 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 			if not self.Orders.IsShown():
 				self.Orders.SetSelected([listpos])
 				self.OnOrderSelect(listpos)
-	
-		# Set which order types can be added to this object
-		self.Possible.SetToolTipDefault(_("Order type to create"))
-		
-		ordertypes = objectutils.getOrderTypes(self.application.cache, object.id)
-		for type in ordertypes[self.qid]:
-			if not objects.OrderDescs().has_key(type):
-				print "WARNING: Unknown order type with id %s" % type
-				continue
 
-			od = objects.OrderDescs()[type]
-			self.Possible.Append(od._name, type)
-			if hasattr(od, "doc"):
-				desc = od.doc
-			else:
-				desc = od.__doc__
-			desc = desc.strip()
-
-			self.Possible.SetToolTipItem(self.Possible.GetCount()-1, desc)
-		
-		# Set the order types to the first selection
-		if len(objectutils.getOrderTypes(self.application.cache, object.id)) > 0:
-			self.Possible.Enable()
-			self.Possible.SetSelection(0)
-		else:
-			self.Possible.Disable()
+		# Save possible order types
+		# FIXME: Separate the queues here?
+		for orderqueue, types in ordertypes.items():
+			for type in types:
+				od = objects.OrderDescs()[type]
+				self.ordertypesbyname[od._name] = type
 
 	##########################################################################
 	# Methods called when state changes with the order
@@ -368,7 +350,6 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 		self.OrderQueueSelect(self.Queues.GetClientData(self.Queues.GetSelection()))
 		# Do the clean up first
 		self.Orders.DeleteAllItems()
-		self.Possible.Clear()
 		
 		object = self.application.cache.objects[self.oid]
 		orders = self.application.cache.orders[self.qid]
@@ -376,33 +357,7 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 		# Add all the orders to the list
 		for listpos, node in enumerate(orders):
 			self.InsertListItem(listpos, node)
-	
-		# Set which order types can be added to this object
-		self.Possible.SetToolTipDefault(_("Order type to create"))
-		
-		ordertypes = objectutils.getOrderTypes(self.application.cache, object.id)
-		for type in ordertypes[self.qid]:
-			if not objects.OrderDescs().has_key(type):
-				print "WARNING: Unknown order type with id %s" % type
-				continue
 
-			od = objects.OrderDescs()[type]
-			self.Possible.Append(od._name, type)
-			if hasattr(od, "doc"):
-				desc = od.doc
-			else:
-				desc = od.__doc__
-			desc = desc.strip()
-
-			self.Possible.SetToolTipItem(self.Possible.GetCount()-1, desc)
-		
-		# Set the order types to the first selection
-		if len(objectutils.getOrderTypes(self.application.cache, object.id)) > 0:
-			self.Possible.Enable()
-			self.Possible.SetSelection(0)
-		else:
-			self.Possible.Disable()
-		
 		self.BuildPanel()
 		
 	def OnOrderDeselect(self, evt):
@@ -422,67 +377,18 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 			nodes.append(self.Orders.GetItemPyData(listpos))
 
 		self.SelectOrders(nodes)
-		
-	@freeze_wrapper
-	def OnOrderNew(self, evt, after=True):
+
+	def OnOrderNew(self, evt):
 		"""\
-		Called to add a new order.
+		Called on New Order button press.
 		"""
-		assert self.oid != None
+		# Create a menu
+		self.menu = wx.Menu()
+		self.BuildMenu(self.menu)
 
-		# Figure out what type of new order we are creating
-		type = self.Possible.GetSelection()
-		if type == wx.NOT_FOUND:
-			return
-		type = self.Possible.GetClientData(type)
-		
-		# Build the argument list
-		orderdesc = objects.OrderDescs()[type]
-
-		# sequence, id, slot, type, turns, resources
-		args = [-1, self.qid, -1, type, 0, []]
-		for property in orderdesc.properties:
-			# FIXME: These could probably be made into better functions that create 
-			# more reasonable initial values.
-			if isinstance(property, parameters.OrderParamAbsSpaceCoords):
-				args += [[[0, 0, 0]]]
-			elif isinstance(property, parameters.OrderParamRelSpaceCoords):
-				args += [[0, [0, 0, 0]]]
-			elif isinstance(property, parameters.OrderParamList):
-				args += [[[], []]]
-			elif isinstance(property, parameters.OrderParamString):
-				args += [[0, ""]]
-			elif isinstance(property, parameters.OrderParamTime):
-				args += [[0, 0]]
-			elif isinstance(property, parameters.OrderParamObject):
-				args += [[0, []]]
-			elif isinstance(property, parameters.OrderParamPlayer):
-				args += [[0, 0]]
-			elif isinstance(property, parameters.OrderParamRange):
-				args += [[-1, -1, -1, -1]]
-			elif isinstance(property, parameters.OrderParamReference):
-				args += [[0, [0]]]
-			elif isinstance(property, parameters.OrderParamReferenceList):
-				args += [[[0], [0]]]
-			elif isinstance(property, parameters.OrderParamResourceList):
-				args += [[[0,0], 0, 0, [0,0]]]
-			elif isinstance(property, parameters.OrderParamGenericReferenceQuantityList):
-				args += [[[0, []], [0, "", 0, [], []], []]]
-			else:
-				print "Unknown: ", type(property)
-				return
-
-		# Create the new order
-		new = objects.Order(*args)
-		new._dirty = True
-
-		# Insert the new order (after the currently selected)
-		if after:
-			node = self.InsertAfterOrder(new)
-		else:
-			node = self.InsertBeforeOrder(new)
-
-		self.SelectOrders([node])
+		# Draw the menu near New Order button
+		height = self.OrderNew.GetRect().GetHeight()
+		self.OrderNew.PopupMenu(self.menu, (0, height))
 
 	@freeze_wrapper
 	def OnOrderDelete(self, evt):
@@ -712,6 +618,59 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 		
 		return apply(objects.Order, args)
 
+	@freeze_wrapper
+	def AddNewOrder(self, ordertype, after=True):
+		"""\
+		Adds an order of ordertype to the current order queue.
+		"""
+		# Build the argument list
+		orderdesc = objects.OrderDescs()[ordertype]
+
+		# sequence, id, slot, type, turns, resources
+		args = [-1, self.qid, -1, ordertype, 0, []]
+		for property in orderdesc.properties:
+			# FIXME: These could probably be made into better functions that create
+			# more reasonable initial values.
+			if isinstance(property, parameters.OrderParamAbsSpaceCoords):
+				args += [[[0, 0, 0]]]
+			elif isinstance(property, parameters.OrderParamRelSpaceCoords):
+				args += [[0, [0, 0, 0]]]
+			elif isinstance(property, parameters.OrderParamList):
+				args += [[[], []]]
+			elif isinstance(property, parameters.OrderParamString):
+				args += [[0, ""]]
+			elif isinstance(property, parameters.OrderParamTime):
+				args += [[0, 0]]
+			elif isinstance(property, parameters.OrderParamObject):
+				args += [[0, []]]
+			elif isinstance(property, parameters.OrderParamPlayer):
+				args += [[0, 0]]
+			elif isinstance(property, parameters.OrderParamRange):
+				args += [[-1, -1, -1, -1]]
+			elif isinstance(property, parameters.OrderParamReference):
+				args += [[0, [0]]]
+			elif isinstance(property, parameters.OrderParamReferenceList):
+				args += [[[0], [0]]]
+			elif isinstance(property, parameters.OrderParamResourceList):
+				args += [[[0,0], 0, 0, [0,0]]]
+			elif isinstance(property, parameters.OrderParamGenericReferenceQuantityList):
+				args += [[[0, []], [0, "", 0, [], []], []]]
+			else:
+				print "Unknown: ", ordertype(property)
+				return
+
+		# Create the new order
+		new = objects.Order(*args)
+		new._dirty = True
+
+		# Insert the new order (after the currently selected)
+		if after:
+			node = self.InsertAfterOrder(new)
+		else:
+			node = self.InsertBeforeOrder(new)
+
+		self.SelectOrders([node])
+
 	##########################################################################
 	# Clipboard functionality
 	##########################################################################
@@ -731,7 +690,6 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 					continue
 
 				od = objects.OrderDescs()[type]
-			
 				if hasattr(od, "doc"):
 					desc = od.doc
 				else:
@@ -745,11 +703,12 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 		"""
 		if self.clipboard != None:
 			for subtype, orderstring in self.clipboard:
-				if not objects.OrderDescs().has_key(subtype):
+				orderdescs = objects.OrderDescs()
+				if not orderdescs.has_key(subtype):
 					return False
 
-				slot = self.Possible.FindString(objects.OrderDescs()[subtype]._name)
-				if slot == wx.NOT_FOUND:
+				ordername = orderdescs[subtype]._name
+				if not self.ordertypesbyname.has_key(ordername):
 					return False
 			return True
 		return False
@@ -822,13 +781,14 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 			if self.clipboard != None:
 				menu.Append(-1, _("Paste"))
 				menu.Enable(menu.FindItem(_("Paste")), nopaste)
-			
-		self.Bind(wx.EVT_MENU, self.OnOrderMenu)
+
 		self.PopupMenu(menu)
 
 	def OnOrderMenu(self, evt):
 		"""\
-		An action from the right click menu.
+		An action from the order adding menu.
+
+		This handler is used for both right click menu and 'New Order' button menu.
 		"""
 		menu = evt.GetEventObject()
 		item = menu.FindItemById(evt.GetId())
@@ -849,7 +809,6 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 				return
 				
 			# Figure out whats our new position
-			
 			subtype, orderstring = self.clipboard[0]
 			order = objects.Header.fromstr(orderstring[:objects.Header.size])
 			order.__process__(orderstring[objects.Header.size:])
@@ -860,19 +819,15 @@ class panelOrder(panelOrderBase, TrackerObject, TrackerOrder):
 
 			for order in self.clipboard[1:]:
 				node = self.InsertAfterOrder(order, node)
-
 		else:
-			slot = self.Possible.FindString(t)
-			if slot == wx.NOT_FOUND:
+			# Create a new order
+			if not self.ordertypesbyname.has_key(t):
 				return
-
-			self.Possible.SetSelection(slot)
 			
-			if menu.GetTitle() == _("Before"):
-				self.OnOrderNew(None, after=False)
-			else:
-				self.OnOrderNew(None)
-
+			type = self.ordertypesbyname[t]
+			after = menu.GetTitle() != _("Before")
+			self.AddNewOrder(type, after)
+			
 class ArgumentPanel(object):
 	"""\
 	Base class for all other Argument panels.

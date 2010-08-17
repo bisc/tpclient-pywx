@@ -39,13 +39,9 @@ class panelOrderBase(wx.Panel):
 		if hasattr(self, "OnQueues"):
 			self.Queues.Bind(wx.EVT_CHOICE, self.OnQueues)
 
-		self.New = XRCCTRL(self, "New")
-		if hasattr(self, "OnNew"):
-			self.Bind(wx.EVT_BUTTON, self.OnNew, self.New)
-
-		self.Possible = XRCCTRL(self, "Possible")
-		if hasattr(self, "OnPossible"):
-			self.Possible.Bind(wx.EVT_CHOICE, self.OnPossible)
+		self.OrderNew = XRCCTRL(self, "OrderNew")
+		if hasattr(self, "OnOrderNew"):
+			self.Bind(wx.EVT_BUTTON, self.OnOrderNew, self.OrderNew)
 
 		self.Orders = XRCCTRL(self, "Orders")
 		self.DetailsParentPanel = XRCCTRL(self, "DetailsParentPanel")
@@ -70,7 +66,7 @@ class panelOrderBase(wx.Panel):
 
 def strings():
 	pass
-	_("&New");
+	_("&New Order");
 	_("Insert new order.");
 	_("&Save");
 	_("&Revert");
