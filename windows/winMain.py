@@ -172,7 +172,7 @@ class winMain(winBase):
 		from windows.main.panelSystem  import panelSystem
 
 		self.panels = {}
-		for panel in [panelStarMap, panelMessage, panelSystem, panelOrder, panelInformation]:
+		for panel in [panelStarMap, panelSystem, panelMessage, panelInformation, panelOrder]:
 			title = panel.title
 
 			instance = panel(application, self)
