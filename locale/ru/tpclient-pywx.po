@@ -1,73 +1,72 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Russian translations for tpclient-pywx package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Ruchkin Ivan 'bisc' <ruchkin.ivan@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: tpclient-pywx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-31 11:29+0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2010-09-03 09:02+0400\n"
+"Last-Translator: Ruchkin Ivan 'bisc' <ruchkin.ivan@gmail.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: windows/winAccount.py:30 windows/winAccount.py:31 windows/winAccount.py:33
-#: windows/winAccount.py:33 build/lib.linux-i686-2.6/windows/winAccount.py:33
+#: build/lib.linux-i686-2.6/windows/winAccount.py:33
 msgid "Account"
-msgstr ""
+msgstr "Учетная запись"
 
 #: windows/winAccount.py:174 windows/winAccount.py:175
 #: windows/winAccount.py:182 windows/winAccount.py:184
-#: windows/winAccount.py:185 windows/winAccount.py:185
+#: windows/winAccount.py:185
 #: build/lib.linux-i686-2.6/windows/winAccount.py:185
 msgid "This server does not support account creation."
-msgstr ""
+msgstr "Этот сервер не поддерживает создание учетных записей."
 
 #: windows/winAccount.py:178 windows/winAccount.py:179
 #: windows/winAccount.py:189 windows/winAccount.py:190
-#: windows/winAccount.py:190
 #: build/lib.linux-i686-2.6/windows/winAccount.py:190
 msgid "Account Created"
-msgstr ""
+msgstr "Учетная запись создана"
 
 #: windows/winAccount.py:182 windows/winBase.py:369 tpclient-pywx:264
 #: tpclient-pywx:268 windows/winAccount.py:183 tpclient-pywx:362
 #: windows/winAccount.py:196 tpclient-pywx:390 windows/winAccount.py:194
 #: tpclient-pywx:389 windows/winAccount.py:195 tpclient-pywx:395
-#: windows/winAccount.py:195
 #: build/lib.linux-i686-2.6/windows/winAccount.py:195 tpclient-pywx:399
 msgid "Network Error"
-msgstr ""
+msgstr "Ошибка сети"
 
 #: windows/winAccount.py:195 windows/winAccount.py:196
 #: windows/winAccount.py:213 windows/winAccount.py:210
-#: windows/winAccount.py:211 windows/winAccount.py:211
+#: windows/winAccount.py:211
 #: build/lib.linux-i686-2.6/windows/winAccount.py:211
 msgid "All fields are required."
-msgstr ""
+msgstr "Все поля обязательные."
 
 #: windows/winAccount.py:195 windows/winAccount.py:199
 #: windows/winAccount.py:196 windows/winAccount.py:200
 #: windows/winAccount.py:213 windows/winAccount.py:217
 #: windows/winAccount.py:210 windows/winAccount.py:214
 #: windows/winAccount.py:211 windows/winAccount.py:215
-#: windows/winAccount.py:211 windows/winAccount.py:215
 #: build/lib.linux-i686-2.6/windows/winAccount.py:211
 #: build/lib.linux-i686-2.6/windows/winAccount.py:215
 msgid "Fields Required"
-msgstr ""
+msgstr "Обязательные поля"
 
 #: windows/winAccount.py:199 windows/winAccount.py:200
 #: windows/winAccount.py:217 windows/winAccount.py:214
-#: windows/winAccount.py:215 windows/winAccount.py:215
+#: windows/winAccount.py:215
 #: build/lib.linux-i686-2.6/windows/winAccount.py:215
 msgid "Password fields do not match."
-msgstr ""
+msgstr "Введенные пароли не совпадают.\t"
 
 #: windows/winBase.py:169
 #, python-format
@@ -75,6 +74,8 @@ msgid ""
 "Config-%s: Did not find a default show for your resolution (using 1024x768 "
 "defaults)"
 msgstr ""
+"Конфигурация-%s: Для вашего разрешения не найдено отображение по умолчанию "
+"(используется 1024х768)"
 
 #: windows/winBase.py:182
 #, python-format
@@ -82,6 +83,8 @@ msgid ""
 "Config-%s: Did not find a default position for your resolution (using "
 "1024x768 defaults)"
 msgstr ""
+"Конфигурация-%s: Для вашего разрешения не найдена позиция по умолчанию "
+"(используется 1024х768)"
 
 #: windows/winBase.py:193
 #, python-format
@@ -89,31 +92,32 @@ msgid ""
 "Config-%s: Did not find a default size for your resolution (using 1024x768 "
 "defaults)"
 msgstr ""
+"Конфигурация-%s: Для вашего разрешения не найден размер по умолчанию "
+"(используется 1024х768)"
 
 #: windows/winBase.py:237
 msgid "Show?"
-msgstr ""
+msgstr "Показать?"
 
 #: windows/winBase.py:246
 msgid "X Pos"
-msgstr ""
+msgstr "X"
 
 #: windows/winBase.py:255
 msgid "Y Pos"
-msgstr ""
+msgstr "Y"
 
 #: windows/winBase.py:264
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: windows/winBase.py:273
 msgid "Height"
-msgstr ""
+msgstr "Высота"
 
-#: windows/winConfig.py:14 windows/winConfig.py:14
-#: build/lib.linux-i686-2.6/windows/winConfig.py:14
+#: windows/winConfig.py:14 build/lib.linux-i686-2.6/windows/winConfig.py:14
 msgid "Config"
-msgstr ""
+msgstr "Конфигурация"
 
 #: windows/winConnect.py:141 windows/winConnect.py:137
 #: windows/winConnect.py:140 windows/winConnect.py:149
@@ -121,14 +125,14 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/winConnect.py:147
 #, python-format
 msgid "Login for %s"
-msgstr ""
+msgstr "Логин для %s"
 
 #: windows/winConnect.py:166 windows/winConnect.py:162
 #: windows/winConnect.py:165 windows/winConnect.py:750
 #: windows/winConnect.py:748 windows/xrc/GameSetupWizard.py:58
 #: build/lib.linux-i686-2.6/windows/winConnect.py:748
 msgid "Connect"
-msgstr ""
+msgstr "Подключиться"
 
 #: windows/winConnect.py:250 windows/winConnect.py:263
 #: windows/winConnect.py:266 windows/winConnect.py:855
@@ -137,13 +141,15 @@ msgid ""
 "this account, would you like to update the saved \n"
 "information with the new password?\n"
 msgstr ""
+"Вы используете другой пароль для этой учетной записи. Сохранить новый пароль "
+"вместо старого?\n"
 
 #: windows/winConnect.py:255 windows/winConnect.py:269
 #: windows/winConnect.py:272 windows/winConnect.py:861
 #: windows/winConnect.py:868
 #: build/lib.linux-i686-2.6/windows/winConnect.py:860
 msgid "Update Password?"
-msgstr ""
+msgstr "Обновить пароль?"
 
 #: windows/winConnect.py:264 windows/winConnect.py:246
 #: windows/winConnect.py:249 windows/winConnect.py:838
@@ -152,13 +158,16 @@ msgid ""
 "\n"
 "Would you like to save this account's details?\n"
 msgstr ""
+"Вы не использовали эту учетную запись ранее\n"
+"\n"
+"Запомнить эту учетную запись?\n"
 
 #: windows/winConnect.py:269 windows/winConnect.py:251
 #: windows/winConnect.py:254 windows/winConnect.py:843
 #: windows/winConnect.py:850
 #: build/lib.linux-i686-2.6/windows/winConnect.py:842
 msgid "Add Account?"
-msgstr ""
+msgstr "Добавить учетную запись?"
 
 #: windows/winConnect.py:436 windows/winConnect.py:441
 #: windows/winConnect.py:446 windows/winConnect.py:431
@@ -172,7 +181,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/winConnect.py:1043
 #: build/lib.linux-i686-2.6/windows/winConnect.py:1047
 msgid "Login for "
-msgstr ""
+msgstr "Логин для"
 
 #: windows/winConnect.py:453 windows/winConnect.py:446
 #: windows/winConnect.py:449
@@ -183,56 +192,59 @@ msgid ""
 "\n"
 "Would you instead like to autoconnect to %s.\n"
 msgstr ""
+"\n"
+"Клиент настроен на автоматическое подключение к %s.\n"
+"\n"
+"Вы хотите автоматически подключаться к %s?\n"
 
 #: windows/winConnect.py:458 windows/winConnect.py:451
 #: windows/winConnect.py:454 windows/winConnect.py:1060
 #: windows/winConnect.py:1075
 #: build/lib.linux-i686-2.6/windows/winConnect.py:1059
 msgid "Autoconnect to?"
-msgstr ""
+msgstr "Автоматическое подключение"
 
 #: windows/winDebug.py:8
 msgid "Debug"
-msgstr ""
+msgstr "Отладка"
 
 #: windows/winDesign.py:43 windows/main/winDesign.py:43
 #: windows/xrc/winDesign.py:96 windows/xrc/winDesign.py:99
 #: windows/xrc/winDesign.py:115 windows/main/winDesign.py:113
-#: windows/main/winDesign.py:113 windows/xrc/winDesign.py:131
+#: windows/xrc/winDesign.py:131
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:113
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:115
 msgid "Design"
-msgstr ""
+msgstr "Чертеж"
 
 #: windows/winDesign.py:78 windows/winDesign.py:83 windows/xrc/winDesign.py:97
 #: windows/xrc/winDesign.py:98 windows/xrc/winDesign.py:100
 #: windows/xrc/winDesign.py:101 windows/xrc/winDesign.py:116
 #: windows/xrc/winDesign.py:117 windows/xrc/winDesign.py:115
-#: windows/xrc/winDesign.py:116
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:116
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:117
 msgid "Title"
-msgstr ""
+msgstr "Название"
 
 #: windows/winDesign.py:106 windows/main/winDesign.py:75
-#: windows/main/winDesign.py:148 windows/main/winDesign.py:148
+#: windows/main/winDesign.py:148
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:148
 msgid "Component"
-msgstr ""
+msgstr "Компонент"
 
 #: windows/winDesign.py:129 windows/xrc/winDesign.py:105
 #: windows/xrc/winDesign.py:108 windows/xrc/winDesign.py:125
 #: windows/xrc/winDesign.py:124
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:125
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: windows/winDesign.py:134 windows/xrc/winDesign.py:106
 #: windows/xrc/winDesign.py:109 windows/xrc/winDesign.py:126
 #: windows/xrc/winDesign.py:125
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:126
 msgid "Duplicate"
-msgstr ""
+msgstr "Дублировать"
 
 #: windows/winDesign.py:139 windows/winOrder.py:220 windows/winOrder.py:253
 #: windows/xrc/panelMessage.py:76 windows/xrc/panelMessage.py:77
@@ -242,188 +254,187 @@ msgstr ""
 #: windows/xrc/winDesign.py:127 windows/main/panelOrder.py:783
 #: windows/main/panelOrder.py:816 windows/main/panelOrder.py:763
 #: windows/main/panelOrder.py:797 windows/xrc/winDesign.py:126
-#: windows/xrc/panelMessage.py:81
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:785
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:818
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:127
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:81
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: windows/winDesign.py:144 windows/xrc/winDesign.py:108
 #: windows/xrc/winDesign.py:111 windows/xrc/winDesign.py:128
 #: windows/xrc/winDesign.py:127
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:128
 msgid "Revert"
-msgstr ""
+msgstr "Откатить"
 
 #: windows/winDesign.py:149 windows/xrc/winDesign.py:109
 #: windows/xrc/winDesign.py:112 windows/xrc/winDesign.py:129
 #: windows/xrc/winDesign.py:128
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:129
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: windows/winDesign.py:165 windows/winOrder.py:766
 #: windows/main/panelOrder.py:834 windows/xrc/winDesign.py:110
 #: windows/main/panelOrder.py:831 windows/xrc/orderList.py:56
 #: windows/xrc/winDesign.py:113 windows/xrc/winDesign.py:130
-#: windows/xrc/orderList.py:58 windows/xrc/orderList.py:58
-#: windows/xrc/winDesign.py:129
+#: windows/xrc/orderList.py:58 windows/xrc/winDesign.py:129
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:58
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:130
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: windows/winDesign.py:169 windows/xrc/winDesign.py:111
 #: windows/xrc/winDesign.py:114 windows/xrc/winDesign.py:131
 #: windows/xrc/winDesign.py:130
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:131
 msgid "Add Many"
-msgstr ""
+msgstr "Добавить несколько"
 
 #: windows/winDesign.py:237 windows/xrc/winUpdate.py:94
 #: windows/main/winDesign.py:150 windows/xrc/winUpdate.py:95
 #: windows/xrc/winUpdate.py:98 windows/xrc/winUpdate.py:107
-#: windows/main/winDesign.py:230 windows/main/winDesign.py:230
-#: windows/xrc/winUpdate.py:112
+#: windows/main/winDesign.py:230 windows/xrc/winUpdate.py:112
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:230
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:107
 msgid "Designs"
-msgstr ""
+msgstr "Чертежи"
 
 #: windows/winDesign.py:242 windows/main/winDesign.py:155
 msgid "New Design"
-msgstr ""
+msgstr "Новый чертеж"
 
 #: windows/winDesign.py:267 windows/xrc/winUpdate.py:95
 #: windows/main/winDesign.py:191 windows/xrc/winUpdate.py:96
 #: windows/xrc/winUpdate.py:99 windows/xrc/winUpdate.py:108
-#: windows/main/winDesign.py:279 windows/main/winDesign.py:279
-#: windows/xrc/winUpdate.py:113
+#: windows/main/winDesign.py:279 windows/xrc/winUpdate.py:113
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:279
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:108
 msgid "Components"
-msgstr ""
+msgstr "Компоненты"
 
 #: windows/winDesign.py:398 windows/main/winDesign.py:333
-#: windows/main/winDesign.py:433 windows/main/winDesign.py:433
+#: windows/main/winDesign.py:433
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:433
 msgid ""
 "\n"
 "Would you like to continue adding these components?"
 msgstr ""
+"\n"
+"Вы хотите продолжить добавление этих компонентов?"
 
 #: windows/winDesign.py:400 windows/main/winDesign.py:335
-#: windows/main/winDesign.py:435 windows/main/winDesign.py:435
+#: windows/main/winDesign.py:435
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:435
 msgid ""
 "\n"
 "Would you like to continue adding this component?"
 msgstr ""
+"\n"
+"Вы хотите продолжить добавление этого компонента?"
 
 #: windows/winDesign.py:401 windows/main/winDesign.py:336
-#: windows/main/winDesign.py:436 windows/main/winDesign.py:436
+#: windows/main/winDesign.py:436
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:436
 msgid "Design Warning"
-msgstr ""
+msgstr "Предупреждение чертежей"
 
 #: windows/winInfo.py:57 windows/main/panelInfo.py:30
 #: windows/main/panelInfo.py:33 windows/main/panelInfo.py:36
 #: build/lib.linux-i686-2.6/windows/main/panelInfo.py:33
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
 #: windows/winMain.py:212 windows/winMain.py:108 windows/winMain.py:109
 #: windows/winMain.py:115 windows/winMain.py:116 windows/winMain.py:128
 #: build/lib.linux-i686-2.6/windows/winMain.py:127
 msgid "Thousand Parsec"
-msgstr ""
+msgstr "Thousand Parsec"
 
 #: windows/winMain.py:332
 msgid "Connect to Game\tCtrl-O"
-msgstr ""
+msgstr "Подключиться к Игре\tCtrl-O"
 
 #: windows/winMain.py:332 windows/winMain.py:250 windows/winMain.py:253
 #: windows/winMain.py:254 windows/winMain.py:260 windows/winMain.py:238
 msgid "Connect to a diffrent Game"
-msgstr ""
+msgstr "Подключиться к другой Игре"
 
 #: windows/winMain.py:333
 msgid "Download the Universe\tCtrl-U"
-msgstr ""
+msgstr "Скачать Вселенную\tCtrl-U"
 
 #: windows/winMain.py:333 windows/winMain.py:251 windows/winMain.py:254
 #: windows/winMain.py:255 windows/winMain.py:261 windows/winMain.py:239
-#: windows/winMain.py:261 build/lib.linux-i686-2.6/windows/winMain.py:253
+#: build/lib.linux-i686-2.6/windows/winMain.py:253
 msgid "Download the Universe"
-msgstr ""
+msgstr "Скачать Вселенную"
 
 #: windows/winMain.py:335
 msgid "Preferences"
-msgstr ""
+msgstr "Настройки"
 
 #: windows/winMain.py:335 windows/winMain.py:253 windows/winMain.py:256
 #: windows/winMain.py:258 windows/winMain.py:264 windows/winMain.py:242
-#: windows/winMain.py:264 build/lib.linux-i686-2.6/windows/winMain.py:256
+#: build/lib.linux-i686-2.6/windows/winMain.py:256
 msgid "Configure the Client"
-msgstr ""
+msgstr "Настроить Клиент"
 
 #: windows/winMain.py:337 windows/winMain.py:255 windows/winMain.py:258
 #: windows/winMain.py:260 windows/winMain.py:266 windows/winMain.py:244
-#: windows/winMain.py:266 build/lib.linux-i686-2.6/windows/winMain.py:258
+#: build/lib.linux-i686-2.6/windows/winMain.py:258
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 #: windows/winMain.py:370 windows/winMain.py:278 windows/winMain.py:281
 #: windows/winMain.py:283 windows/winMain.py:289 windows/winMain.py:267
-#: windows/winMain.py:289 build/lib.linux-i686-2.6/windows/winMain.py:281
+#: build/lib.linux-i686-2.6/windows/winMain.py:281
 msgid "Show "
-msgstr ""
+msgstr "Показать"
 
 #: windows/winMain.py:377 windows/winMain.py:285 windows/winMain.py:288
 #: windows/winMain.py:290 windows/winMain.py:296 windows/winMain.py:274
-#: windows/winMain.py:296 build/lib.linux-i686-2.6/windows/winMain.py:288
+#: build/lib.linux-i686-2.6/windows/winMain.py:288
 msgid "Show Tips"
-msgstr ""
+msgstr "Показать Подсказки"
 
 #: windows/winMain.py:378 windows/winMain.py:286 windows/main/winHelp.py:19
 #: windows/xrc/winHelp.py:73 windows/xrc/winHelp.py:74
-#: windows/main/winHelp.py:19 windows/xrc/winHelp.py:74
 #: build/lib.linux-i686-2.6/windows/main/winHelp.py:19
 #: build/lib.linux-i686-2.6/windows/xrc/winHelp.py:74
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: windows/winMain.py:382 windows/winMain.py:290 windows/winMain.py:293
 #: windows/winMain.py:295 windows/winMain.py:302 windows/winMain.py:280
 #: windows/winMain.py:317 build/lib.linux-i686-2.6/windows/winMain.py:309
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: windows/winMain.py:384 windows/winMain.py:292 windows/winMain.py:295
 #: windows/winMain.py:297 windows/winMain.py:304 windows/winMain.py:282
 #: windows/winMain.py:318 build/lib.linux-i686-2.6/windows/winMain.py:310
 msgid "Windows"
-msgstr ""
+msgstr "Окна"
 
 #: windows/winMain.py:385 windows/winMain.py:293 windows/winMain.py:305
 #: windows/winMain.py:283 windows/winMain.py:320
 #: build/lib.linux-i686-2.6/windows/winMain.py:312
 msgid "&Help"
-msgstr ""
+msgstr "&Помощь "
 
 #: windows/winMain.py:440 windows/winMain.py:348 windows/winMain.py:352
 #: windows/winMain.py:375 windows/winMain.py:385 windows/winMain.py:365
 #: windows/winMain.py:424 build/lib.linux-i686-2.6/windows/winMain.py:422
 msgid "The turn has ended. Would you like to download all the new details?\n"
-msgstr ""
+msgstr "Ход закончен. Загрузить все обновления?\n"
 
 #: windows/winMain.py:443 windows/winMain.py:351 windows/winMain.py:355
 #: windows/winMain.py:378 windows/winMain.py:388 windows/winMain.py:368
 #: windows/winMain.py:427 build/lib.linux-i686-2.6/windows/winMain.py:425
 msgid "Update?"
-msgstr ""
+msgstr "Обновить?"
 
 #: windows/winMessage.py:93 windows/xrc/winUpdate.py:92
 #: windows/main/panelMessage.py:26 windows/xrc/winUpdate.py:93
@@ -433,7 +444,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelMessage.py:146
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:105
 msgid "Messages"
-msgstr ""
+msgstr "Сообщения"
 
 #: windows/winMessage.py:226 windows/main/panelMessage.py:206
 #: windows/main/panelMessage.py:205 windows/main/panelMessage.py:319
@@ -441,24 +452,24 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelMessage.py:322
 #: build/lib.linux-i686-2.6/windows/main/panelMessage.py:371
 msgid "No messages"
-msgstr ""
+msgstr "Нет сообщений"
 
 #: windows/winMessage.py:235
 msgid "All filtered"
-msgstr ""
+msgstr "Всё отфильтровано"
 
 #: windows/winMessage.py:281 windows/main/panelMessage.py:240
 #: windows/main/panelMessage.py:239
 #, python-format
 msgid "%i of %i"
-msgstr ""
+msgstr "%i из %i"
 
 #: windows/winNewStarMap.py:51 windows/winStarMap.py:69
 #: windows/main/panelStarMap.py:41 windows/main/panelStarMap.py:61
 #: windows/main/panelStarMap.py:64 windows/main/panelStarMap.py:84
 #: build/lib.linux-i686-2.6/windows/main/panelStarMap.py:64
 msgid "StarMap"
-msgstr ""
+msgstr "Звездная Карта"
 
 #: windows/winOrder.py:38 windows/xrc/winUpdate.py:90
 #: windows/main/panelOrder.py:43 windows/xrc/winUpdate.py:91
@@ -468,25 +479,25 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:36
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:103
 msgid "Orders"
-msgstr ""
+msgstr "Приказы"
 
 #: windows/winOrder.py:53 windows/main/panelOrder.py:56
 #: windows/main/panelOrder.py:50 windows/main/panelOrder.py:55
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:50
 msgid "Turns"
-msgstr ""
+msgstr "Ходы"
 
 #: windows/winOrder.py:55 windows/main/panelOrder.py:58
 #: windows/main/panelOrder.py:52 windows/main/panelOrder.py:57
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:52
 msgid "Order Information"
-msgstr ""
+msgstr "Информация о Приказах"
 
 #: windows/winOrder.py:203 windows/main/panelOrder.py:646
 #: windows/main/panelOrder.py:766 windows/main/panelOrder.py:746
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:768
 msgid "Top"
-msgstr ""
+msgstr "Верх"
 
 #: windows/winOrder.py:211 windows/winOrder.py:295
 #: windows/main/panelOrder.py:654 windows/main/panelOrder.py:733
@@ -496,13 +507,13 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:776
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:857
 msgid "Before"
-msgstr ""
+msgstr "До"
 
 #: windows/winOrder.py:212 windows/main/panelOrder.py:655
 #: windows/main/panelOrder.py:775 windows/main/panelOrder.py:755
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:777
 msgid "New Before"
-msgstr ""
+msgstr "Добавить До"
 
 #: windows/winOrder.py:216 windows/winOrder.py:280
 #: windows/main/panelOrder.py:659 windows/main/panelOrder.py:718
@@ -511,13 +522,13 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:781
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:842
 msgid "After"
-msgstr ""
+msgstr "После"
 
 #: windows/winOrder.py:217 windows/main/panelOrder.py:660
 #: windows/main/panelOrder.py:780 windows/main/panelOrder.py:760
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:782
 msgid "New After"
-msgstr ""
+msgstr "Добавить После"
 
 #: windows/winOrder.py:224 windows/winOrder.py:255 windows/winOrder.py:269
 #: windows/main/panelOrder.py:667 windows/main/panelOrder.py:698
@@ -528,7 +539,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:820
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:829
 msgid "Cut"
-msgstr ""
+msgstr "Вырезать"
 
 #: windows/winOrder.py:225 windows/winOrder.py:255
 #: windows/main/panelOrder.py:668 windows/main/panelOrder.py:698
@@ -537,7 +548,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:790
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:820
 msgid "Copy"
-msgstr ""
+msgstr "Копировать"
 
 #: windows/winOrder.py:228 windows/winOrder.py:229
 #: windows/main/panelOrder.py:671 windows/main/panelOrder.py:672
@@ -546,7 +557,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:793
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:794
 msgid "Paste Before"
-msgstr ""
+msgstr "Вставить До"
 
 #: windows/winOrder.py:230 windows/winOrder.py:231
 #: windows/main/panelOrder.py:673 windows/main/panelOrder.py:674
@@ -555,7 +566,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:795
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:796
 msgid "Paste After"
-msgstr ""
+msgstr "Вставить После"
 
 #: windows/winOrder.py:234 windows/winOrder.py:235
 #: windows/main/panelOrder.py:677 windows/main/panelOrder.py:678
@@ -564,7 +575,7 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:799
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:800
 msgid "New"
-msgstr ""
+msgstr "Новый"
 
 #: windows/winOrder.py:239 windows/winOrder.py:240 windows/winOrder.py:272
 #: windows/main/panelOrder.py:682 windows/main/panelOrder.py:683
@@ -576,25 +587,25 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:805
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:832
 msgid "Paste"
-msgstr ""
+msgstr "Вставить"
 
 #: windows/winOrder.py:274 windows/main/panelOrder.py:712
 #: windows/main/panelOrder.py:832 windows/main/panelOrder.py:808
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:834
 msgid "Cant paste because the orders arn't valid on this object."
-msgstr ""
+msgstr "Невозможно вставить, поскольку приказы не подходят к этому объекту."
 
 #: windows/winOrder.py:315
 #, python-format
 msgid "Warning: Object %s does not exist!"
-msgstr ""
+msgstr "Предупреждение: Объект %s не существует!"
 
 #: windows/winOrder.py:335 windows/main/panelOrder.py:188
 #: windows/main/panelOrder.py:189 windows/main/panelOrder.py:186
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:188
 #, python-format
 msgid "Current orders on %s."
-msgstr ""
+msgstr "Текущие приказы %s."
 
 #: windows/winOrder.py:347 windows/main/panelOrder.py:197
 #: windows/main/panelOrder.py:198 windows/main/panelOrder.py:214
@@ -602,56 +613,56 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:216
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:374
 msgid "Order type to create"
-msgstr ""
+msgstr "Тип приказа для создания"
 
 #: windows/winOrder.py:413 windows/main/panelOrder.py:425
 #: windows/main/panelOrder.py:424 windows/main/panelOrder.py:446
 #: windows/main/panelOrder.py:539 windows/main/panelOrder.py:452
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:541
 msgid "Multiple orders selected."
-msgstr ""
+msgstr "Несколько приказов выбрано. "
 
 #: windows/winOrder.py:417 windows/main/panelOrder.py:434
 #: windows/main/panelOrder.py:433 windows/main/panelOrder.py:455
 #: windows/main/panelOrder.py:548 windows/main/panelOrder.py:461
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:550
 msgid "No object selected."
-msgstr ""
+msgstr "Не выбран объект. "
 
 #: windows/winOrder.py:486
 #, python-format
 msgid "OrderSave: No order selected for save. (%s)"
-msgstr ""
+msgstr "Сохранение Приказа: не выбран приказ для сохранения. (%s)"
 
 #: windows/winOrder.py:528
 #, python-format
 msgid "OrderSave: No order selected for update. (%s))"
-msgstr ""
+msgstr "Сохранение приказа: Не выбран приказ для обновления. (%s)"
 
 #: windows/winOrder.py:651
 msgid "Argument type (ARG_PLAYER) not implimented yet."
-msgstr ""
+msgstr "Тип аргумента (ARG_PLAYER) еще не реализован."
 
 #: windows/winOrder.py:653
 msgid "Argument type (ARG_RANGE) not implimented yet."
-msgstr ""
+msgstr "Тип аргумента (ARG_RANGE) еще не реализован."
 
 #: windows/winOrder.py:676 windows/main/panelOrder.py:741
 #: windows/main/panelOrder.py:738
 msgid "Not implimented."
-msgstr ""
+msgstr "Не реализовано."
 
 #: windows/winOrder.py:709 windows/main/panelOrder.py:774
 #: windows/main/panelOrder.py:771 windows/main/panelOrder.py:906
 #: windows/main/panelOrder.py:877
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:908
 msgid "No object"
-msgstr ""
+msgstr "Нет объекта"
 
 #: windows/winOrder.py:714 windows/main/panelOrder.py:779
 #: windows/main/panelOrder.py:776
 msgid "At "
-msgstr ""
+msgstr "В"
 
 #: windows/winOrder.py:744 windows/winServerBrowser.py:26
 #: windows/winServerBrowser.py:133 windows/winServerBrowser.py:28
@@ -661,8 +672,7 @@ msgstr ""
 #: windows/winConnect.py:610 windows/xrc/SinglePlayerWizard.py:485
 #: windows/main/panelOrder.py:1065 windows/main/panelOrder.py:1048
 #: windows/winConnect.py:448 windows/winConnect.py:533
-#: windows/winConnect.py:608 windows/xrc/SinglePlayerWizard.py:485
-#: windows/winServerBrowser.py:28 windows/winServerBrowser.py:138
+#: windows/winConnect.py:608
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:1067
 #: build/lib.linux-i686-2.6/windows/winConnect.py:448
 #: build/lib.linux-i686-2.6/windows/winConnect.py:533
@@ -671,82 +681,77 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:28
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:138
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 # Short for "Delete"
 #: windows/winOrder.py:769 windows/main/panelOrder.py:837
 #: windows/main/panelOrder.py:834 windows/xrc/orderList.py:57
-#: windows/xrc/orderList.py:60 windows/xrc/orderList.py:60
+#: windows/xrc/orderList.py:60
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:60
 msgid "D"
-msgstr ""
+msgstr "Уд"
 
 #: windows/winOrder.py:791 windows/winOrder.py:835
 msgid "ListAdd: No type selected."
-msgstr ""
+msgstr "ListAdd: Не выбран тип."
 
 #: windows/winOrder.py:824
 msgid "ListDel: No selection selected."
-msgstr ""
+msgstr "ListDel: Ничего не выбрано. "
 
 #: windows/winOrder.py:855
 msgid "ListSelect: No selection selected."
-msgstr ""
+msgstr "ListSelect: Ничего не выбрано."
 
 # The "X" coordinate
 #: windows/winOrder.py:916 windows/main/panelOrder.py:980
 #: windows/main/panelOrder.py:977
 msgid "X"
-msgstr ""
+msgstr "X"
 
 # The "Y" coordinate
 #: windows/winOrder.py:924 windows/main/panelOrder.py:988
 #: windows/main/panelOrder.py:985
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 # The "Z" coordinate
 #: windows/winOrder.py:932 windows/main/panelOrder.py:996
 #: windows/main/panelOrder.py:993
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: windows/winOrder.py:940 windows/winServerBrowser.py:21
 #: windows/winServerBrowser.py:76 windows/winServerBrowser.py:23
 #: windows/main/panelOrder.py:1004 windows/winServerBrowser.py:81
 #: windows/main/panelOrder.py:1001 windows/xrc/orderPosition.py:47
 #: windows/xrc/orderRelPosition.py:49 windows/xrc/orderPosition.py:48
-#: windows/xrc/orderPosition.py:48 windows/xrc/orderRelPosition.py:49
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:81
 #: build/lib.linux-i686-2.6/windows/xrc/orderPosition.py:48
 #: build/lib.linux-i686-2.6/windows/xrc/orderRelPosition.py:49
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:81
 msgid "P"
-msgstr ""
+msgstr "П"
 
 #: windows/winPicture.py:60 windows/main/panelPicture.py:47
 #: windows/main/panelPicture.py:49 windows/main/panelPicture.py:53
-#: windows/main/panelPicture.py:53
 #: build/lib.linux-i686-2.6/windows/main/panelPicture.py:53
 msgid "Picture"
-msgstr ""
+msgstr "Картинка"
 
 #: windows/winServerBrowser.py:19 windows/winUpdate.py:19
 #: windows/winServerBrowser.py:21 windows/winUpdate.py:23
-#: windows/winUpdate.py:23 windows/winServerBrowser.py:21
 #: build/lib.linux-i686-2.6/windows/winUpdate.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:21
 msgid "Updating"
-msgstr ""
+msgstr "Обновление"
 
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:52
 #: windows/winServerBrowser.py:23 windows/winServerBrowser.py:57
 #: windows/winConnect.py:450 windows/winConnect.py:534
 #: windows/winConnect.py:609 windows/xrc/SinglePlayerWizard.py:488
 #: windows/winConnect.py:448 windows/winConnect.py:532
-#: windows/winConnect.py:607 windows/xrc/SinglePlayerWizard.py:488
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:57
+#: windows/winConnect.py:607
 #: build/lib.linux-i686-2.6/windows/winConnect.py:448
 #: build/lib.linux-i686-2.6/windows/winConnect.py:532
 #: build/lib.linux-i686-2.6/windows/winConnect.py:607
@@ -754,15 +759,14 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:57
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:57
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:62
 #: windows/winServerBrowser.py:23 windows/winServerBrowser.py:62
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:62
 msgid "Playing"
-msgstr ""
+msgstr "Играет"
 
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:60
 #: windows/xrc/winAccount.py:75 windows/xrc/winConnect.py:76
@@ -770,86 +774,77 @@ msgstr ""
 #: windows/xrc/winConnect.py:83 windows/winServerBrowser.py:65
 #: windows/xrc/winAccount.py:85 windows/xrc/winConnect.py:86
 #: windows/xrc/winConnect.py:99 windows/xrc/winAccount.py:94
-#: windows/xrc/winConnect.py:99 windows/xrc/winAccount.py:94
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:65
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:99
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:94
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:65
 msgid "Server"
-msgstr ""
+msgstr "Сервер"
 
 # Number of "Connected Players"
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:68
 #: windows/winServerBrowser.py:23 windows/winServerBrowser.py:73
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:73
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:73
 msgid "C"
-msgstr ""
+msgstr "И"
 
 # Number of "Visible Objects"
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:72
 #: windows/winServerBrowser.py:23 windows/winServerBrowser.py:77
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:77
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:77
 msgid "O"
-msgstr ""
+msgstr "О"
 
 #: windows/winServerBrowser.py:21 windows/winServerBrowser.py:80
-#: windows/winServerBrowser.py:23 windows/winServerBrowser.py:85
 #: windows/winServerBrowser.py:23 windows/winServerBrowser.py:85
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:23
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:85
 msgid "Other"
-msgstr ""
+msgstr "Другое"
 
 #: windows/winServerBrowser.py:26 windows/winServerBrowser.py:134
-#: windows/winServerBrowser.py:28 windows/winServerBrowser.py:139
 #: windows/winServerBrowser.py:28 windows/winServerBrowser.py:139
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:28
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:139
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: windows/winServerBrowser.py:26 windows/winServerBrowser.py:135
-#: windows/winServerBrowser.py:28 windows/winServerBrowser.py:140
 #: windows/winServerBrowser.py:28 windows/winServerBrowser.py:140
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:28
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:140
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: windows/winServerBrowser.py:26 windows/winServerBrowser.py:136
-#: windows/winServerBrowser.py:28 windows/winServerBrowser.py:141
 #: windows/winServerBrowser.py:28 windows/winServerBrowser.py:141
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:28
 #: build/lib.linux-i686-2.6/windows/winServerBrowser.py:141
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
 #: windows/winSystem.py:23 windows/main/panelSystem.py:22
 #: windows/xrc/panelStarMap.py:67 windows/main/panelSystem.py:23
 #: windows/xrc/panelStarMap.py:70 windows/xrc/panelStarMap.py:71
-#: windows/main/panelSystem.py:27 windows/main/panelSystem.py:27
-#: windows/xrc/panelStarMap.py:71
+#: windows/main/panelSystem.py:27
 #: build/lib.linux-i686-2.6/windows/main/panelSystem.py:27
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:71
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: windows/winSystem.py:126 windows/main/panelSystem.py:143
 #: windows/main/panelSystem.py:152 windows/main/panelSystem.py:160
 #: windows/main/panelSystem.py:187 windows/main/panelSystem.py:203
 #: build/lib.linux-i686-2.6/windows/main/panelSystem.py:203
 msgid "Known Universe"
-msgstr ""
+msgstr "Известная часть Вселенной"
 
 #: windows/winUpdate.py:50 windows/winUpdate.py:55 windows/winUpdate.py:58
 #: windows/winUpdate.py:52 build/lib.linux-i686-2.6/windows/winUpdate.py:58
 msgid "Save log as ..."
-msgstr ""
+msgstr "Сохранить лог как ..."
 
 #: windows/winUpdate.py:171 windows/winUpdate.py:245
 #: windows/xrc/winUpdate.py:84 windows/xrc/winUpdate.py:86
@@ -866,27 +861,26 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:97
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:99
 msgid "Done!"
-msgstr ""
+msgstr "Выполнено!"
 
 #: windows/winUpdate.py:194 windows/winUpdate.py:200 windows/winUpdate.py:214
 #: windows/winUpdate.py:225 build/lib.linux-i686-2.6/windows/winUpdate.py:225
 #, python-format
 msgid "Getting %s"
-msgstr ""
+msgstr "Получение %s"
 
 #: windows/winUpdate.py:222 windows/winUpdate.py:233 windows/winUpdate.py:228
 #: windows/winUpdate.py:239 windows/winUpdate.py:242 windows/winUpdate.py:253
 #: windows/winUpdate.py:264
 #, python-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s из %s"
 
 #: windows/xrc/configConnect.py:54 windows/xrc/configConnect.py:55
 #: windows/xrc/configConnect.py:58 windows/xrc/configConnect.py:59
-#: windows/xrc/configConnect.py:59
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:59
 msgid "Login for"
-msgstr ""
+msgstr "Логин для"
 
 #: windows/xrc/configConnect.py:55 windows/xrc/winAccount.py:79
 #: windows/xrc/winConnect.py:78 windows/xrc/configConnect.py:56
@@ -894,13 +888,11 @@ msgstr ""
 #: windows/xrc/configConnect.py:59 windows/xrc/winAccount.py:89
 #: windows/xrc/winConnect.py:89 windows/xrc/winConnect.py:102
 #: windows/xrc/winAccount.py:98 windows/xrc/configConnect.py:60
-#: windows/xrc/winConnect.py:102 windows/xrc/configConnect.py:60
-#: windows/xrc/winAccount.py:98
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:102
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:60
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:98
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: windows/xrc/configConnect.py:56 windows/xrc/winAccount.py:80
 #: windows/xrc/winConnect.py:79 windows/xrc/configConnect.py:57
@@ -908,13 +900,11 @@ msgstr ""
 #: windows/xrc/configConnect.py:60 windows/xrc/winAccount.py:90
 #: windows/xrc/winConnect.py:90 windows/xrc/winConnect.py:103
 #: windows/xrc/winAccount.py:99 windows/xrc/configConnect.py:61
-#: windows/xrc/winConnect.py:103 windows/xrc/configConnect.py:61
-#: windows/xrc/winAccount.py:99
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:103
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:61
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:99
 msgid "The username for the account on the Thousand Parsec server."
-msgstr ""
+msgstr "Имя пользователя на сервере Thousand Parsec."
 
 #: windows/xrc/configConnect.py:57 windows/xrc/winAccount.py:81
 #: windows/xrc/winConnect.py:80 windows/xrc/configConnect.py:58
@@ -922,13 +912,11 @@ msgstr ""
 #: windows/xrc/configConnect.py:61 windows/xrc/winAccount.py:91
 #: windows/xrc/winConnect.py:91 windows/xrc/winConnect.py:104
 #: windows/xrc/winAccount.py:100 windows/xrc/configConnect.py:62
-#: windows/xrc/winConnect.py:104 windows/xrc/configConnect.py:62
-#: windows/xrc/winAccount.py:100
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:104
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:62
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:100
 msgid "Show seperate game box."
-msgstr ""
+msgstr "Показать отдельно окно игры."
 
 # This "G" indicates the "Game" menu fly out.
 #: windows/xrc/configConnect.py:58 windows/xrc/winAccount.py:82
@@ -937,13 +925,11 @@ msgstr ""
 #: windows/xrc/configConnect.py:62 windows/xrc/winAccount.py:92
 #: windows/xrc/winConnect.py:92 windows/xrc/winConnect.py:105
 #: windows/xrc/winAccount.py:101 windows/xrc/configConnect.py:63
-#: windows/xrc/winConnect.py:105 windows/xrc/configConnect.py:63
-#: windows/xrc/winAccount.py:101
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:105
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:63
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:101
 msgid "G"
-msgstr ""
+msgstr "И"
 
 #: windows/xrc/configConnect.py:59 windows/xrc/winAccount.py:83
 #: windows/xrc/winConnect.py:82 windows/xrc/configConnect.py:60
@@ -951,13 +937,12 @@ msgstr ""
 #: windows/xrc/configConnect.py:63 windows/xrc/winAccount.py:93
 #: windows/xrc/winConnect.py:93 windows/xrc/winConnect.py:106
 #: windows/xrc/winAccount.py:102 windows/xrc/configConnect.py:64
-#: windows/xrc/winConnect.py:106 windows/xrc/winGameInfo.py:78
-#: windows/xrc/configConnect.py:64 windows/xrc/winAccount.py:102
+#: windows/xrc/winGameInfo.py:78
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:106
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:64
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:102
 msgid "Game"
-msgstr ""
+msgstr "Игра"
 
 #: windows/xrc/configConnect.py:60 windows/xrc/winAccount.py:84
 #: windows/xrc/winConnect.py:83 windows/xrc/configConnect.py:61
@@ -965,55 +950,47 @@ msgstr ""
 #: windows/xrc/configConnect.py:64 windows/xrc/winAccount.py:94
 #: windows/xrc/winConnect.py:94 windows/xrc/winConnect.py:107
 #: windows/xrc/winAccount.py:103 windows/xrc/configConnect.py:65
-#: windows/xrc/winConnect.py:107 windows/xrc/configConnect.py:65
-#: windows/xrc/winAccount.py:103
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:107
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:65
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:103
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: windows/xrc/configConnect.py:61 windows/xrc/configConnect.py:62
 #: windows/xrc/configConnect.py:65 windows/xrc/configConnect.py:66
-#: windows/xrc/configConnect.py:66
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:66
 msgid "Autoconnect"
-msgstr ""
+msgstr "Автоматическое подключение"
 
 #: windows/xrc/configConnect.py:62 windows/xrc/configConnect.py:63
 #: windows/xrc/configConnect.py:66 windows/xrc/configConnect.py:67
-#: windows/xrc/configConnect.py:67
 #: build/lib.linux-i686-2.6/windows/xrc/configConnect.py:67
 msgid "Debug Output"
-msgstr ""
+msgstr "Отладочный вывод"
 
 #: windows/xrc/panelInformation.py:38 windows/xrc/panelInformation.py:39
 #: windows/xrc/panelInformation.py:42 windows/xrc/panelInformation.py:43
-#: windows/xrc/panelInformation.py:43
 #: build/lib.linux-i686-2.6/windows/xrc/panelInformation.py:43
 msgid "Name of object goes here"
-msgstr ""
+msgstr "Здесь должно быть имя объекта"
 
 #: windows/xrc/panelMessage.py:67 windows/xrc/panelMessage.py:68
 #: windows/xrc/panelMessage.py:71 windows/xrc/panelMessage.py:72
-#: windows/xrc/panelMessage.py:72
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:72
 msgid "Filter"
-msgstr ""
+msgstr "Фильтр"
 
 #: windows/xrc/panelMessage.py:68 windows/xrc/panelMessage.py:69
 #: windows/xrc/panelMessage.py:72 windows/xrc/panelMessage.py:73
-#: windows/xrc/panelMessage.py:73
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:73
 msgid "Static text"
-msgstr ""
+msgstr "Статический текст"
 
 #: windows/xrc/panelMessage.py:69 windows/xrc/panelMessage.py:70
 #: windows/xrc/panelMessage.py:73 windows/xrc/panelMessage.py:74
-#: windows/xrc/panelMessage.py:74
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:74
 msgid "100 of 100"
-msgstr ""
+msgstr "100 из 100"
 
 #: windows/xrc/panelMessage.py:70 windows/xrc/panelMessage.py:71
 #: windows/xrc/panelMessage.py:74 windows/xrc/panelMessage.py:75
@@ -1039,187 +1016,188 @@ msgid ""
 "</body>\n"
 "</html>"
 msgstr ""
+"<html>\n"
+"<body>\n"
+"<center>\n"
+"\t<table cols=1 width=\"100%\">\n"
+"\t\t<tr>\n"
+"\t\t\t<td><b>Тема:</b> Вас не любят!\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<td>\n"
+"\t\t\tВы не получили сообщений на этом ходу!<br><br>\n"
+"\t\t\tНа самом деле, если вы не получили сообщений, то наиболее вероятно,\n"
+"\t\t\tчто ваш клиент не смог загрузить результаты с сервера.\n"
+"\t\t\tПопробуйте загрузить заново или перезапустить клиент.\n"
+"\t\t\t</td>\n"
+"\t\t</tr>\n"
+"\t </table>\n"
+"</center>\n"
+"</body>\n"
+"</html>"
 
 #: windows/xrc/panelMessage.py:71 windows/xrc/panelMessage.py:72
 #: windows/xrc/panelMessage.py:75 windows/xrc/panelMessage.py:76
-#: windows/xrc/panelMessage.py:76
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:76
 msgid "Prev"
-msgstr ""
+msgstr "Пред"
 
 #: windows/xrc/panelMessage.py:72 windows/xrc/panelMessage.py:73
 #: windows/xrc/panelMessage.py:76 windows/xrc/panelMessage.py:77
-#: windows/xrc/panelMessage.py:77
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:77
 msgid "First"
-msgstr ""
+msgstr "Первый"
 
 #: windows/xrc/panelMessage.py:73 windows/xrc/panelMessage.py:74
 #: windows/xrc/panelMessage.py:77 windows/xrc/panelMessage.py:78
-#: windows/xrc/panelMessage.py:78
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:78
 msgid "Goto"
-msgstr ""
+msgstr "Перейти"
 
 #: windows/xrc/panelMessage.py:74 windows/xrc/panelMessage.py:75
 #: windows/xrc/panelMessage.py:78 windows/xrc/panelMessage.py:79
-#: windows/xrc/panelMessage.py:79
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:79
 msgid "Next"
-msgstr ""
+msgstr "След"
 
 #: windows/xrc/panelMessage.py:75 windows/xrc/panelMessage.py:76
 #: windows/xrc/panelMessage.py:79 windows/xrc/panelMessage.py:80
-#: windows/xrc/panelMessage.py:80
 #: build/lib.linux-i686-2.6/windows/xrc/panelMessage.py:80
 msgid "Last"
-msgstr ""
+msgstr "Последний"
 
 #: windows/xrc/panelOrder.py:57 windows/xrc/panelOrder.py:64
 #: windows/xrc/panelOrder.py:68 windows/xrc/panelOrder.py:74
 #: windows/xrc/panelOrder.py:70
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:74
 msgid "Insert new order."
-msgstr ""
+msgstr "Вставить новый приказ."
 
 #: windows/xrc/panelOrder.py:58 windows/xrc/panelOrder.py:65
 #: windows/xrc/panelOrder.py:69 windows/xrc/panelOrder.py:73
-#: windows/xrc/SinglePlayerWizard.py:490 windows/xrc/SinglePlayerWizard.py:490
+#: windows/xrc/SinglePlayerWizard.py:490
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:73
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:490
 msgid "&New"
-msgstr ""
+msgstr "&Новый"
 
 #: windows/xrc/panelOrder.py:59 windows/xrc/winUpdate.py:102
 #: windows/xrc/panelOrder.py:66 windows/xrc/winUpdate.py:103
 #: windows/xrc/panelOrder.py:70 windows/xrc/winUpdate.py:106
 #: windows/xrc/panelOrder.py:75 windows/xrc/SinglePlayerWizard.py:491
 #: windows/xrc/winUpdate.py:115 windows/xrc/panelOrder.py:71
-#: windows/xrc/winUpdate.py:121 windows/xrc/SinglePlayerWizard.py:491
-#: windows/xrc/winOrderParam.py:76
+#: windows/xrc/winUpdate.py:121 windows/xrc/winOrderParam.py:76
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:75
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:115
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:491
 msgid "&Save"
-msgstr ""
+msgstr "&Сохранить"
 
 #: windows/xrc/panelOrder.py:60 windows/xrc/panelOrder.py:67
 #: windows/xrc/panelOrder.py:71 windows/xrc/panelOrder.py:76
 #: windows/xrc/panelOrder.py:72 windows/xrc/winOrderParam.py:77
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:76
 msgid "&Revert"
-msgstr ""
+msgstr "&Откатить"
 
 #: windows/xrc/panelOrder.py:61 windows/xrc/panelOrder.py:68
 #: windows/xrc/panelOrder.py:72 windows/xrc/panelOrder.py:78
 #: windows/xrc/panelOrder.py:74 windows/xrc/winOrderParam.py:79
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:78
 msgid "Delete the currently selected order(s)"
-msgstr ""
+msgstr "Удалить выделенный(ые) приказ(ы)"
 
 #: windows/xrc/panelOrder.py:62 windows/xrc/panelOrder.py:69
 #: windows/xrc/panelOrder.py:73 windows/xrc/panelOrder.py:77
-#: windows/xrc/SinglePlayerWizard.py:492 windows/xrc/panelOrder.py:73
 #: windows/xrc/SinglePlayerWizard.py:492 windows/xrc/winOrderParam.py:78
 #: build/lib.linux-i686-2.6/windows/xrc/panelOrder.py:77
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:492
 msgid "&Delete"
-msgstr ""
+msgstr "&Удалить"
 
 #: windows/xrc/panelPicture.py:43 windows/xrc/panelPicture.py:45
 #: windows/xrc/panelPicture.py:48 windows/xrc/panelPicture.py:49
-#: windows/xrc/panelPicture.py:49
 #: build/lib.linux-i686-2.6/windows/xrc/panelPicture.py:49
 msgid "Name goes here"
-msgstr ""
+msgstr "Здесь должно быть имя"
 
 #: windows/xrc/panelPicture.py:44 windows/xrc/panelPicture.py:46
 #: windows/xrc/panelPicture.py:49 windows/xrc/panelPicture.py:50
-#: windows/xrc/panelPicture.py:50
 #: build/lib.linux-i686-2.6/windows/xrc/panelPicture.py:50
 msgid "10kb/s"
-msgstr ""
+msgstr "10кб/c"
 
 #: windows/xrc/panelPicture.py:45 windows/xrc/panelPicture.py:47
 #: windows/xrc/panelPicture.py:50 windows/xrc/panelPicture.py:51
-#: windows/xrc/panelPicture.py:51
 #: build/lib.linux-i686-2.6/windows/xrc/panelPicture.py:51
 msgid "43s"
-msgstr ""
+msgstr "43с"
 
 #: windows/xrc/winAccount.py:73 windows/xrc/winConnect.py:74
 #: windows/xrc/winAccount.py:80 windows/xrc/winConnect.py:81
 #: windows/xrc/winAccount.py:83 windows/xrc/winConnect.py:84
 #: windows/xrc/winConnect.py:97 windows/xrc/winAccount.py:92
-#: windows/xrc/winConnect.py:97 windows/xrc/winAccount.py:92
 #: windows/xrc/winWaiting.py:79
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:97
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:92
 msgid "TP: Connect to a Server"
-msgstr ""
+msgstr "TP: Подключиться к серверу"
 
 #: windows/xrc/winAccount.py:74 windows/xrc/winAccount.py:81
 #: windows/xrc/winAccount.py:84 windows/xrc/winAccount.py:93
-#: windows/xrc/winAccount.py:93
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:93
 msgid "Create an Account"
-msgstr ""
+msgstr "Создать Учетную Запись"
 
 #: windows/xrc/winAccount.py:76 windows/xrc/winConnect.py:77
 #: windows/xrc/winAccount.py:83 windows/xrc/winConnect.py:84
 #: windows/xrc/winAccount.py:86 windows/xrc/winConnect.py:87
 #: windows/xrc/winConnect.py:100 windows/xrc/winAccount.py:95
-#: windows/xrc/winConnect.py:100 windows/xrc/winAccount.py:95
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:100
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:95
 msgid "The URL for the Thousand Parsec server."
-msgstr ""
+msgstr "URL сервера Thousand Parsec."
 
 #: windows/xrc/winAccount.py:77 windows/xrc/winAccount.py:84
 #: windows/xrc/winAccount.py:87 windows/xrc/winAccount.py:96
-#: windows/xrc/winAccount.py:96
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:96
 msgid "Choose a server to create an account on."
-msgstr ""
+msgstr "Выберите сервер, на котором создать учетную запись."
 
 #: windows/xrc/winAccount.py:78 windows/xrc/winAccount.py:85
 #: windows/xrc/winAccount.py:88 windows/xrc/winAccount.py:97
-#: windows/xrc/winAccount.py:97
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:97
 msgid "Check"
-msgstr ""
+msgstr "Проверка"
 
 #: windows/xrc/winAccount.py:85 windows/xrc/winAccount.py:92
 #: windows/xrc/winAccount.py:95 windows/xrc/winAccount.py:104
-#: windows/xrc/winAccount.py:104
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:104
 msgid "Choose your password here."
-msgstr ""
+msgstr "Выберите свой пароль."
 
 #: windows/xrc/winAccount.py:86 windows/xrc/winAccount.py:93
 #: windows/xrc/winAccount.py:96 windows/xrc/winAccount.py:105
-#: windows/main/panelMessage.py:320 windows/xrc/winAccount.py:105
+#: windows/main/panelMessage.py:320
 #: build/lib.linux-i686-2.6/windows/main/panelMessage.py:323
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:105
 msgid " "
-msgstr ""
+msgstr " "
 
 #: windows/xrc/winAccount.py:87 windows/xrc/winAccount.py:89
 #: windows/xrc/winAccount.py:94 windows/xrc/winAccount.py:96
 #: windows/xrc/winAccount.py:97 windows/xrc/winAccount.py:99
 #: windows/xrc/winAccount.py:106 windows/xrc/winAccount.py:108
-#: windows/xrc/winAccount.py:106 windows/xrc/winAccount.py:108
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:106
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:108
 msgid "Repeat the password"
-msgstr ""
+msgstr "Повторите пароль"
 
 #: windows/xrc/winAccount.py:88 windows/xrc/winAccount.py:95
 #: windows/xrc/winAccount.py:98 windows/xrc/winAccount.py:107
-#: windows/xrc/winAccount.py:107
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:107
 msgid "Email "
-msgstr ""
+msgstr "Электронная почта"
 
 #: windows/xrc/winAccount.py:90 windows/xrc/winConnect.py:85
 #: windows/xrc/winUpdate.py:100 windows/xrc/winAccount.py:97
@@ -1227,13 +1205,12 @@ msgstr ""
 #: windows/xrc/winAccount.py:100 windows/xrc/winUpdate.py:104
 #: windows/xrc/winConnect.py:96 windows/xrc/winConnect.py:109
 #: windows/xrc/winAccount.py:109 windows/xrc/winUpdate.py:113
-#: windows/xrc/winConnect.py:109 windows/xrc/winUpdate.py:119
-#: windows/xrc/winAccount.py:109
+#: windows/xrc/winUpdate.py:119
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:109
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:113
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:109
 msgid "&OK"
-msgstr ""
+msgstr "&ОК"
 
 #: windows/xrc/winAccount.py:91 windows/xrc/winConnect.py:86
 #: windows/xrc/winServerBrowser.py:88 windows/xrc/winUpdate.py:104
@@ -1243,202 +1220,181 @@ msgstr ""
 #: windows/xrc/winUpdate.py:108 windows/xrc/winConnect.py:97
 #: windows/xrc/winConnect.py:110 windows/xrc/winServerBrowser.py:101
 #: windows/xrc/winAccount.py:110 windows/xrc/winUpdate.py:117
-#: windows/xrc/winConnect.py:110 windows/xrc/winUpdate.py:123
-#: windows/xrc/winAccount.py:110 windows/xrc/winServerBrowser.py:101
+#: windows/xrc/winUpdate.py:123
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:110
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:117
 #: build/lib.linux-i686-2.6/windows/xrc/winAccount.py:110
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:101
 msgid "&Cancel"
-msgstr ""
+msgstr "&Отмена"
 
 #: windows/xrc/winConnect.py:75 windows/xrc/winConnect.py:82
 #: windows/xrc/winConnect.py:85 windows/xrc/winConnect.py:98
-#: windows/xrc/winConnect.py:98
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:98
 msgid "Connect to Thousand Parsec Server"
-msgstr ""
+msgstr "Подключиться к Серверу Thousand Parsec"
 
 #: windows/xrc/winConnect.py:84 windows/xrc/winConnect.py:92
 #: windows/xrc/winConnect.py:95 windows/xrc/winConnect.py:108
-#: windows/xrc/winConnect.py:108
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:108
 msgid "The password for the account on the Thousand Parsec Server"
-msgstr ""
+msgstr "Пароль для учетной записи на Сервере Thousand Parsec"
 
 #: windows/xrc/winConnect.py:87 windows/xrc/winConnect.py:85
 #: windows/xrc/winConnect.py:88 windows/xrc/winConnect.py:101
-#: windows/xrc/winConnect.py:101
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:101
 msgid "&Find"
-msgstr ""
+msgstr "&Поиск"
 
 #: windows/xrc/winConnect.py:88 windows/xrc/winConnect.py:95
 #: windows/winMain.py:253 windows/xrc/winConnect.py:98 windows/winMain.py:256
 #: windows/winMain.py:258 windows/winMain.py:264 windows/xrc/winConnect.py:111
-#: windows/winMain.py:242 windows/xrc/winConnect.py:111
-#: build/lib.linux-i686-2.6/windows/winMain.py:256
+#: windows/winMain.py:242 build/lib.linux-i686-2.6/windows/winMain.py:256
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:111
 msgid "&Preferences"
-msgstr ""
+msgstr "&Настройки"
 
 #: windows/xrc/winServerBrowser.py:72 windows/xrc/winServerBrowser.py:73
 #: windows/xrc/winServerBrowser.py:76 windows/xrc/winServerBrowser.py:85
-#: windows/xrc/winServerBrowser.py:85
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:85
 msgid "TP: Server Browser"
-msgstr ""
+msgstr "TP: Обзор Серверов"
 
 #: windows/xrc/winServerBrowser.py:73 windows/xrc/winServerBrowser.py:74
 #: windows/xrc/winServerBrowser.py:77 windows/xrc/winServerBrowser.py:86
-#: windows/xrc/winServerBrowser.py:86
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:86
 msgid "Thousand Parsec Server Browser"
-msgstr ""
+msgstr "Обзор Серверов Thousand Parsec"
 
 #: windows/xrc/winServerBrowser.py:74 windows/xrc/winServerBrowser.py:75
 #: windows/xrc/winServerBrowser.py:78 windows/xrc/winServerBrowser.py:87
-#: windows/xrc/winServerBrowser.py:87
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:87
 msgid "Servers"
-msgstr ""
+msgstr "Серверы"
 
 #: windows/xrc/winServerBrowser.py:75 windows/xrc/winServerBrowser.py:76
 #: windows/xrc/winServerBrowser.py:79 windows/xrc/winServerBrowser.py:88
-#: windows/xrc/winServerBrowser.py:88
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:88
 msgid "List of all the servers registered on the metaserver."
-msgstr ""
+msgstr "Список всех серверов, зарегистрированных на метасервере"
 
 #: windows/xrc/winServerBrowser.py:76 windows/xrc/winServerBrowser.py:77
 #: windows/xrc/winServerBrowser.py:80 windows/xrc/winServerBrowser.py:89
-#: windows/xrc/winServerBrowser.py:89
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:89
 msgid "Locations"
-msgstr ""
+msgstr "Местонахождения"
 
 #: windows/xrc/winServerBrowser.py:77 windows/xrc/winServerBrowser.py:78
 #: windows/xrc/winServerBrowser.py:81 windows/xrc/winServerBrowser.py:90
-#: windows/xrc/winServerBrowser.py:90
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:90
 msgid "List of all the servers found on the local network."
-msgstr ""
+msgstr "Список всех серверов, найденных в локальной сети."
 
 #: windows/xrc/winServerBrowser.py:78 windows/xrc/winServerBrowser.py:79
 #: windows/xrc/winServerBrowser.py:82 windows/xrc/winServerBrowser.py:91
-#: windows/xrc/winServerBrowser.py:91
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:91
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: windows/xrc/winServerBrowser.py:79 windows/xrc/winServerBrowser.py:80
 #: windows/xrc/winServerBrowser.py:83 windows/xrc/winServerBrowser.py:92
-#: windows/xrc/winServerBrowser.py:92
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:92
 msgid "URL of the currently selected server."
-msgstr ""
+msgstr "URL выбранного сервера."
 
 #: windows/xrc/winServerBrowser.py:80 windows/xrc/winServerBrowser.py:81
 #: windows/xrc/winServerBrowser.py:84 windows/xrc/winServerBrowser.py:93
-#: windows/xrc/winServerBrowser.py:93
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:93
 msgid "Copy the URL to the clipboard."
-msgstr ""
+msgstr "Копировать URL в буфер обмена."
 
 #: windows/xrc/winServerBrowser.py:81 windows/xrc/winServerBrowser.py:82
 #: windows/xrc/winServerBrowser.py:85 windows/xrc/winServerBrowser.py:94
-#: windows/xrc/winServerBrowser.py:94
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:94
 msgid "&Copy"
-msgstr ""
+msgstr "&Копировать"
 
 #: windows/xrc/winServerBrowser.py:82 windows/xrc/winServerBrowser.py:83
 #: windows/xrc/winServerBrowser.py:86 windows/xrc/winServerBrowser.py:95
-#: windows/xrc/winServerBrowser.py:95
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:95
 msgid "Force a refresh of the server list."
-msgstr ""
+msgstr "Принудительно обновить список серверов."
 
 #: windows/xrc/winServerBrowser.py:83 windows/xrc/winServerBrowser.py:84
 #: windows/xrc/winServerBrowser.py:87 windows/xrc/winServerBrowser.py:96
-#: windows/xrc/winServerBrowser.py:96
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:96
 msgid "&Refresh"
-msgstr ""
+msgstr "&Обновить"
 
 #: windows/xrc/winServerBrowser.py:84 windows/xrc/winServerBrowser.py:85
 #: windows/xrc/winServerBrowser.py:88 windows/xrc/winServerBrowser.py:97
-#: windows/xrc/winServerBrowser.py:97
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:97
 msgid "Create a new account on the currently selected server."
-msgstr ""
+msgstr "Создать новую учетную запись на выбранном сервере."
 
 #: windows/xrc/winServerBrowser.py:85 windows/xrc/winServerBrowser.py:86
 #: windows/xrc/winServerBrowser.py:89 windows/xrc/winServerBrowser.py:98
-#: windows/xrc/winServerBrowser.py:98
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:98
 msgid "&New Account"
-msgstr ""
+msgstr "Новая Учетная Запись"
 
 #: windows/xrc/winServerBrowser.py:86 windows/xrc/winServerBrowser.py:87
 #: windows/xrc/winServerBrowser.py:90 windows/xrc/winServerBrowser.py:99
-#: windows/xrc/winServerBrowser.py:99
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:99
 msgid "Connect to the currently selected server."
-msgstr ""
+msgstr "Подключиться к выбранному серверу."
 
 #: windows/xrc/winServerBrowser.py:87 windows/xrc/winServerBrowser.py:88
 #: windows/xrc/winServerBrowser.py:91 windows/xrc/winServerBrowser.py:100
-#: windows/xrc/winServerBrowser.py:100
 #: build/lib.linux-i686-2.6/windows/xrc/winServerBrowser.py:100
 msgid "C&onnect"
-msgstr ""
+msgstr "&Подключиться"
 
 #: windows/xrc/winUpdate.py:82
 msgid "TP: Downloading Universe"
-msgstr ""
+msgstr "TP: Идет загрузка Вселенной"
 
 #: windows/xrc/winUpdate.py:83 windows/xrc/winUpdate.py:84
 #: windows/xrc/winUpdate.py:87 windows/xrc/winUpdate.py:96
 #: windows/xrc/winUpdate.py:100
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:96
 msgid "Universe Download"
-msgstr ""
+msgstr "Загрузка Вселенной"
 
 #: windows/xrc/winUpdate.py:85 windows/xrc/winUpdate.py:86
 #: windows/xrc/winUpdate.py:89 windows/xrc/winUpdate.py:98
 #: windows/xrc/winUpdate.py:103
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:98
 msgid "Progress"
-msgstr ""
+msgstr "Прогресс"
 
 #: windows/xrc/winUpdate.py:87 windows/xrc/winUpdate.py:88
 #: windows/xrc/winUpdate.py:91 windows/xrc/winUpdate.py:100
 #: windows/xrc/winUpdate.py:105
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:100
 msgid "Objects Descs"
-msgstr ""
+msgstr "Описания объектов"
 
 #: windows/xrc/winUpdate.py:88 windows/xrc/winUpdate.py:89
 #: windows/xrc/winUpdate.py:92 windows/xrc/winUpdate.py:101
 #: windows/xrc/winUpdate.py:106
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:101
 msgid "Order Descs"
-msgstr ""
+msgstr "Описания приказов"
 
 #: windows/xrc/winUpdate.py:89 windows/xrc/winUpdate.py:90
 #: windows/xrc/winUpdate.py:93 windows/xrc/winUpdate.py:102
 #: windows/xrc/winUpdate.py:107
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:102
 msgid "Objects"
-msgstr ""
+msgstr "Объекты"
 
 #: windows/xrc/winUpdate.py:91 windows/xrc/winUpdate.py:92
 #: windows/xrc/winUpdate.py:95 windows/xrc/winUpdate.py:104
 #: windows/xrc/winUpdate.py:109
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:104
 msgid "Boards"
-msgstr ""
+msgstr "Приказы"
 
 #: windows/xrc/winUpdate.py:93 windows/xrc/winUpdate.py:94
 #: windows/xrc/winUpdate.py:97 windows/xrc/winDesign.py:119
@@ -1447,210 +1403,211 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:106
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:119
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #: windows/xrc/winUpdate.py:96 windows/xrc/winUpdate.py:97
 #: windows/xrc/winUpdate.py:100 windows/xrc/winUpdate.py:109
 #: windows/xrc/winUpdate.py:114
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:109
 msgid "Properties"
-msgstr ""
+msgstr "Свойства"
 
 #: windows/xrc/winUpdate.py:97 windows/xrc/winUpdate.py:98
 #: windows/xrc/winUpdate.py:101 windows/xrc/winUpdate.py:110
 #: windows/xrc/winUpdate.py:115
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:110
 msgid "Players"
-msgstr ""
+msgstr "Игроки"
 
 #: windows/xrc/winUpdate.py:98 windows/xrc/panelStarMap.py:68
 #: windows/xrc/winUpdate.py:99 windows/xrc/panelStarMap.py:71
 #: windows/xrc/winUpdate.py:102 windows/xrc/panelStarMap.py:72
 #: windows/xrc/winUpdate.py:111 windows/xrc/winUpdate.py:116
-#: windows/xrc/panelStarMap.py:72
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:111
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:72
 msgid "Resources"
-msgstr ""
+msgstr "Ресурсы"
 
 #: windows/xrc/winUpdate.py:99 windows/xrc/winUpdate.py:100
 #: windows/xrc/winUpdate.py:103 windows/xrc/winUpdate.py:112
 #: windows/xrc/winUpdate.py:120
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:112
 msgid "Continue to the main game window."
-msgstr ""
+msgstr "Перейти к главному окну."
 
 #: windows/xrc/winUpdate.py:101 windows/xrc/winUpdate.py:102
 #: windows/xrc/winUpdate.py:105 windows/xrc/winUpdate.py:114
 #: windows/xrc/winUpdate.py:122
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:114
 msgid "Save a copy of the message box window to a file."
-msgstr ""
+msgstr "Сохранить копию диалогового окна в файл."
 
 #: windows/xrc/winUpdate.py:103 windows/xrc/winUpdate.py:104
 #: windows/xrc/winUpdate.py:107 windows/xrc/winUpdate.py:116
 #: windows/xrc/winUpdate.py:124
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:116
 msgid "Cancel the current update and go back to the connect screen."
-msgstr ""
+msgstr "Отменить текущее обновление и вернуться к окну подключения."
 
 #: windows/winInfo.py:83
 msgid "SelectObject: No such object."
-msgstr ""
+msgstr "SelectObject: Нет такого объекта."
 
 #: windows/winInfo.py:96 windows/main/panelInfo.py:68
 #: windows/main/panelInfo.py:75
 msgid "Ships: "
-msgstr ""
+msgstr "Корабли: "
 
 #: windows/winInfo.py:103 windows/main/panelInfo.py:75
 #: windows/main/panelInfo.py:82
 msgid "Unknown Design id:"
-msgstr ""
+msgstr "Неизвестный id чертежа: "
 
 #: windows/winInfo.py:104 windows/main/panelInfo.py:76
 #: windows/main/panelInfo.py:83
 #, python-format
 msgid "Unknown (type: %s)"
-msgstr ""
+msgstr "Неизвестный тип: %s"
 
 #: tp/client/cache.py:348 tp/client/cache.py:438 tp/client/cache.py:443
 #: libtpclient-py/tp/client/cache.py:444 libtpclient-py/tp/client/cache.py:477
 msgid "Getting order descriptions..."
-msgstr ""
+msgstr "Получение описаний приказов"
 
 #: tp/client/cache.py:349 tp/client/cache.py:439 tp/client/cache.py:444
 #: libtpclient-py/tp/client/cache.py:445 libtpclient-py/tp/client/cache.py:478
 msgid "Working out the number of order descriptions to get.."
-msgstr ""
+msgstr "Выяснение получаемого числа описаний приказов.."
 
 #: tp/client/cache.py:363 tp/client/cache.py:453 tp/client/cache.py:458
 #, python-format
 msgid "Got order description %s (ID: %i) (last modified at %s)..."
-msgstr ""
+msgstr "Получил описание приказа %s (ID: %i) (последнее изменение %s)"
 
 #: tp/client/cache.py:367 tp/client/cache.py:457 tp/client/cache.py:462
 #, python-format
 msgid "Failed to get order description with id, %i (last modified at %s)..."
 msgstr ""
+"Не удалось получить описание приказа с идентификатором %i (последнее "
+"изменение %s)..."
 
 #: tp/client/cache.py:368 tp/client/cache.py:458
 msgid "Finished getting order descriptions..."
-msgstr ""
+msgstr "Получение описаний приказов закончено..."
 
 #: tp/client/cache.py:387 tp/client/cache.py:477
 msgid "Getting your player object..."
-msgstr ""
+msgstr "Получение объекта игрока..."
 
 #: tp/client/cache.py:389
 msgid "Gotten your player object..."
-msgstr ""
+msgstr "Номер игрока получен..."
 
 #: tp/client/cache.py:411 tp/client/cache.py:501 tp/client/cache.py:534
 #: libtpclient-py/tp/client/cache.py:536 libtpclient-py/tp/client/cache.py:546
 #, python-format
 msgid "Getting %s..."
-msgstr ""
+msgstr "Получение %s..."
 
 #: tp/client/cache.py:414 tp/client/cache.py:504 tp/client/cache.py:537
 #: libtpclient-py/tp/client/cache.py:539 libtpclient-py/tp/client/cache.py:549
 #, python-format
 msgid "Working out the number of %s to get.."
-msgstr ""
+msgstr "Выяснение получаемого числа %s..."
 
 #: tp/client/cache.py:429 tp/client/cache.py:519 tp/client/cache.py:552
 #, python-format
 msgid "Got %s %s (id: %i) (last modified at %s)..."
-msgstr ""
+msgstr "Получен %s %s (id: %i) (последнее изменение %s)"
 
 #: tp/client/cache.py:432 tp/client/cache.py:522 tp/client/cache.py:555
 #: libtpclient-py/tp/client/cache.py:560
 #, python-format
 msgid "No %s to get, skipping..."
-msgstr ""
+msgstr "Не существует %s, пропускаем..."
 
 #: tp/client/cache.py:437 tp/client/cache.py:527 tp/client/cache.py:560
 #, python-format
 msgid "Have %i %s to get..."
-msgstr ""
+msgstr "Получение %i %s..."
 
 #: tp/client/cache.py:448 tp/client/cache.py:538 tp/client/cache.py:571
 #, python-format
 msgid "Failed to get the %s which was previously called %s."
-msgstr ""
+msgstr "Не удалось получить %s, который ранее вызвал %s."
 
 #: tp/client/cache.py:452 tp/client/cache.py:542 tp/client/cache.py:575
 #, python-format
 msgid "Failed to get the %s with id %s."
-msgstr ""
+msgstr "Не удалось получить %s с id %s. "
 
 #: tp/client/cache.py:454 tp/client/cache.py:544 tp/client/cache.py:577
 #: libtpclient-py/tp/client/cache.py:595 libtpclient-py/tp/client/cache.py:603
 #, python-format
 msgid "Cleaning up %s which have disappeared..."
-msgstr ""
+msgstr "Очистка %s, который исчез..."
 
 #: tp/client/cache.py:461 tp/client/cache.py:551 tp/client/cache.py:584
 #, python-format
 msgid "Removing %s %s as it has disappeared..."
-msgstr ""
+msgstr "Удаление %s %s, поскольку он исчез"
 
 #: tp/client/cache.py:466 tp/client/cache.py:556 tp/client/cache.py:589
 #: libtpclient-py/tp/client/cache.py:607 libtpclient-py/tp/client/cache.py:615
 msgid "Building two way tree of the universe for speed..."
-msgstr ""
+msgstr "Построение двунаправленного дерева Вселенной для производительности..."
 
 #: tp/client/cache.py:475
 #, python-format
 msgid "Gotten all %s..."
-msgstr ""
+msgstr "Получены все %s..."
 
 #: tp/client/cache.py:493 tp/client/cache.py:583 tp/client/cache.py:616
 #: libtpclient-py/tp/client/cache.py:709 libtpclient-py/tp/client/cache.py:646
 #, python-format
 msgid "Getting %s.."
-msgstr ""
+msgstr "Получение %s"
 
 #: tp/client/cache.py:494 tp/client/cache.py:584 tp/client/cache.py:617
 #, python-format
 msgid "Have to get %s for %i %s.."
-msgstr ""
+msgstr "Необходимо получить %s для %i %s"
 
 #: tp/client/cache.py:504 tp/client/cache.py:594 tp/client/cache.py:627
 #, python-format
 msgid "Sending a request for all %s on %s.."
-msgstr ""
+msgstr "Отправка запроса для %s на %s.."
 
 #: tp/client/cache.py:508 tp/client/cache.py:598 tp/client/cache.py:631
 #, python-format
 msgid "Skipping requesting %s on %s as there are none!"
-msgstr ""
+msgstr "Пропуска запроса %s на %s, поскольку их не существует"
 
 #: tp/client/cache.py:526 tp/client/cache.py:616 tp/client/cache.py:649
 #, python-format
 msgid "Failed to get %s for %s (id: %s) (%s)..."
-msgstr ""
+msgstr "Не удалось получить %s для %s (id: %s) (%s)"
 
 #: tp/client/cache.py:530 tp/client/cache.py:620 tp/client/cache.py:653
 #, python-format
 msgid "Got %i %s for %s (id: %s)..."
-msgstr ""
+msgstr "Получен %i %s для %s (id: %s)"
 
 #: tp/client/cache.py:533 tp/client/cache.py:628 tp/client/cache.py:661
 #: libtpclient-py/tp/client/cache.py:754 libtpclient-py/tp/client/cache.py:691
 #, python-format
 msgid "Cleaning up any stray %s.."
-msgstr ""
+msgstr "Очистка %s.."
 
 #: tp/client/cache.py:536 tp/client/cache.py:631 tp/client/cache.py:664
 #, python-format
 msgid "Found stray %s for %s.."
-msgstr ""
+msgstr "Найден %s для %s.."
 
 #: tp/client/cache.py:540
 #, python-format
 msgid "Gotten all the %s.."
-msgstr ""
+msgstr "Все %s получены.."
 
 #: tp/client/threads.py:286 tp/client/threads.py:550 tp/client/threads.py:321
 #: tp/client/threads.py:616 tp/client/threads.py:323 tp/client/threads.py:529
@@ -1659,7 +1616,7 @@ msgstr ""
 #: libtpclient-py/tp/client/threads.py:363
 #: libtpclient-py/tp/client/threads.py:725
 msgid "There was an unknown network error.\n"
-msgstr ""
+msgstr "Произошла неизвестная ошибка сети.\n"
 
 #: tp/client/threads.py:287 tp/client/threads.py:551 tp/client/threads.py:322
 #: tp/client/threads.py:617 tp/client/threads.py:324 tp/client/threads.py:530
@@ -1668,19 +1625,19 @@ msgstr ""
 #: libtpclient-py/tp/client/threads.py:364
 #: libtpclient-py/tp/client/threads.py:726
 msgid "Any changes since last save have been lost.\n"
-msgstr ""
+msgstr "Все изменения с момента последнего сохранения были потеряны. \n"
 
 #: tp/client/threads.py:289 tp/client/threads.py:324 tp/client/threads.py:326
 #: libtpclient-py/tp/client/threads.py:367
 #: libtpclient-py/tp/client/threads.py:366
 msgid "A traceback of the error was printed to the console.\n"
-msgstr ""
+msgstr "Отладочная информация об ошибке была напечатана в консоль.\n"
 
 #: tp/client/threads.py:317 tp/client/threads.py:344 tp/client/threads.py:346
 #: libtpclient-py/tp/client/threads.py:388
 #: libtpclient-py/tp/client/threads.py:387
 msgid "The client was unable to connect to the host.\n"
-msgstr ""
+msgstr "Клиент не смог подключиться к удаленной машине.\n"
 
 #: tp/client/threads.py:318 tp/client/threads.py:345 tp/client/threads.py:347
 #: libtpclient-py/tp/client/threads.py:389
@@ -1689,12 +1646,14 @@ msgid ""
 "This could be because the server is down or there is a problem with the "
 "network.\n"
 msgstr ""
+"Это произошло возможно потому, что сервер не включен или произошла ошибка "
+"сети.\n"
 
 #: tp/client/threads.py:322 tp/client/threads.py:349 tp/client/threads.py:351
 #: libtpclient-py/tp/client/threads.py:393
 #: libtpclient-py/tp/client/threads.py:392
 msgid "The client could not connect to the host.\n"
-msgstr ""
+msgstr "Клиент не смог подключиться к удаленной машине.\n"
 
 #: tp/client/threads.py:323 tp/client/threads.py:350 tp/client/threads.py:352
 #: libtpclient-py/tp/client/threads.py:394
@@ -1703,18 +1662,20 @@ msgid ""
 "This could be because the server is down or you mistyped the server "
 "address.\n"
 msgstr ""
+"Это произошло возможно потому, что сервер выключен или вы опечатались в "
+"адресе сервера.\n"
 
 #: tp/client/threads.py:326 tp/client/threads.py:353 tp/client/threads.py:355
 #: libtpclient-py/tp/client/threads.py:397
 #: libtpclient-py/tp/client/threads.py:396
 msgid "Successfully connected to the host..."
-msgstr ""
+msgstr "Успешно подключен к удаленной машине..."
 
 #: tp/client/threads.py:329 tp/client/threads.py:356 tp/client/threads.py:358
 #: libtpclient-py/tp/client/threads.py:400
 #: libtpclient-py/tp/client/threads.py:399
 msgid "Looking for Thousand Parsec Server..."
-msgstr ""
+msgstr "Поиск Сервера Thousand Parsec..."
 
 #: tp/client/threads.py:333 tp/client/threads.py:342 tp/client/threads.py:360
 #: tp/client/threads.py:369 tp/client/threads.py:362 tp/client/threads.py:371
@@ -1726,6 +1687,8 @@ msgid ""
 "The client connected to the host but it did not appear to be a Thousand "
 "Parsec server.\n"
 msgstr ""
+"Клиент подключился к удаленной машине, но она не является сервером Thousand "
+"Parsec.\n"
 
 #: tp/client/threads.py:334 tp/client/threads.py:343 tp/client/threads.py:361
 #: tp/client/threads.py:370 tp/client/threads.py:363 tp/client/threads.py:372
@@ -1737,18 +1700,20 @@ msgid ""
 "This could be because the server is down or the connection details are "
 "incorrect.\n"
 msgstr ""
+"Это произошло возможно потому, что сервер выключен или детали подключения "
+"неверны.\n"
 
 #: tp/client/threads.py:337 tp/client/threads.py:364 tp/client/threads.py:366
 #: libtpclient-py/tp/client/threads.py:408
 #: libtpclient-py/tp/client/threads.py:407
 msgid "Found a Thousand Parsec Server..."
-msgstr ""
+msgstr "Сервер Thousand Parsec найден..."
 
 #: tp/client/threads.py:339 tp/client/threads.py:366 tp/client/threads.py:368
 #: libtpclient-py/tp/client/threads.py:410
 #: libtpclient-py/tp/client/threads.py:409
 msgid "Looking for supported features..."
-msgstr ""
+msgstr "Поиск поддерживаемых возможностей..."
 
 #: tp/client/threads.py:346 tp/client/threads.py:373 tp/client/threads.py:375
 #: libtpclient-py/tp/client/threads.py:417
@@ -1756,19 +1721,19 @@ msgstr ""
 #: libtpclient-py/tp/client/threads.py:416
 #: libtpclient-py/tp/client/threads.py:426
 msgid "Got the supported features..."
-msgstr ""
+msgstr "Поддерживаемые возможности получены..."
 
 #: tp/client/threads.py:355 tp/client/threads.py:382 tp/client/threads.py:384
 #: libtpclient-py/tp/client/threads.py:436
 #: libtpclient-py/tp/client/threads.py:435
 msgid "Connecting..."
-msgstr ""
+msgstr "Подключение..."
 
 #: tp/client/threads.py:361 tp/client/threads.py:388 tp/client/threads.py:390
 #: libtpclient-py/tp/client/threads.py:442
 #: libtpclient-py/tp/client/threads.py:441
 msgid "Trying to Login to the server..."
-msgstr ""
+msgstr "Пробуем авторизоваться на сервере..."
 
 #: tp/client/threads.py:363 tp/client/threads.py:390 tp/client/threads.py:392
 #: libtpclient-py/tp/client/threads.py:444
@@ -1777,6 +1742,8 @@ msgid ""
 "The client connected to the host but could not login because the username of "
 "password was incorrect.\n"
 msgstr ""
+"Клиент подключился к удаленной машине, но не смог авторизоваться, поскольку "
+"имя пользователя или пароль неверны.\n"
 
 #: tp/client/threads.py:364 tp/client/threads.py:391 tp/client/threads.py:393
 #: libtpclient-py/tp/client/threads.py:445
@@ -1785,12 +1752,14 @@ msgid ""
 "This could be because you are connecting to the wrong server or mistyped the "
 "username or password.\n"
 msgstr ""
+"Это произошло возможно потому, что вы подключаетесь к неподходящему серверу "
+"или опечатались в имени пользователя или пароле.\n"
 
 #: tp/client/threads.py:367 tp/client/threads.py:394 tp/client/threads.py:396
 #: libtpclient-py/tp/client/threads.py:448
 #: libtpclient-py/tp/client/threads.py:447
 msgid "Logged in okay!"
-msgstr ""
+msgstr "Авторизация пройдена успешно!"
 
 #: windows/main/panelSystem.py:145 windows/main/panelSystem.py:154
 #: windows/main/panelSystem.py:162 windows/main/panelSystem.py:189
@@ -1798,277 +1767,291 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/main/panelSystem.py:206
 #, python-format
 msgid "Finding %s"
-msgstr ""
+msgstr "Поиск %s"
 
 #: windows/main/panelOrder.py:423 windows/main/panelOrder.py:422
 #: windows/main/panelOrder.py:444
 msgid "No orders avaliable"
-msgstr ""
+msgstr "Нет доступных приказов"
 
 #: windows/main/panelOrder.py:432 windows/main/panelOrder.py:431
 #: windows/main/panelOrder.py:453 windows/main/panelOrder.py:546
 #: windows/main/panelOrder.py:459
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:548
 msgid "Order queued for removal."
-msgstr ""
+msgstr "Приказы поставлены в очередь на удаление..."
 
 #: windows/main/panelInfo.py:81 windows/main/panelInfo.py:88
 msgid "Resources:\n"
-msgstr ""
+msgstr "Ресурсы:\n"
 
 #: windows/main/panelInfo.py:90 windows/main/panelInfo.py:97
 #, python-format
 msgid "%s %s of %s on surface, "
-msgstr ""
+msgstr "%s %s из %s на поверхности,"
 
 #: windows/main/panelInfo.py:94 windows/main/panelInfo.py:101
 #, python-format
 msgid "%s %s on surface, "
-msgstr ""
+msgstr "%s %s на поверхности,"
 
 #: windows/main/panelInfo.py:98 windows/main/panelInfo.py:105
 #, python-format
 msgid "%s %s of %s minable, "
-msgstr ""
+msgstr "%s %s из %s минимизируемы,"
 
 #: windows/main/panelInfo.py:102 windows/main/panelInfo.py:109
 #, python-format
 msgid "%s %s minable, "
-msgstr ""
+msgstr "%s %s минимизируемы,"
 
 #: windows/main/panelInfo.py:106 windows/main/panelInfo.py:113
 #, python-format
 msgid "%s %s of %s inaccessible, "
-msgstr ""
+msgstr "%s %s из %s недоступны,"
 
 #: windows/main/panelInfo.py:110 windows/main/panelInfo.py:117
 #, python-format
 msgid "%s %s inaccessible, "
-msgstr ""
+msgstr "%s %s недоступны,"
 
 #: windows/main/panelInfo.py:114 windows/main/panelInfo.py:121
 #, python-format
 msgid "\tUnknown Resource %i, S: %i, M: %i, I: %s\n"
-msgstr ""
+msgstr "\tНеизвестный Ресурс %i, S: %i, M: %i, I: %s\n"
 
 #: windows/main/winIdleFinder.py:17 windows/xrc/winIdleFinder.py:51
 #: windows/main/winIdleFinder.py:26 windows/xrc/winIdleFinder.py:54
 #: windows/xrc/winIdleFinder.py:63 windows/main/winIdleFinder.py:33
-#: windows/main/winIdleFinder.py:37 windows/xrc/winIdleFinder.py:63
+#: windows/main/winIdleFinder.py:37
 #: build/lib.linux-i686-2.6/windows/main/winIdleFinder.py:33
 #: build/lib.linux-i686-2.6/windows/xrc/winIdleFinder.py:63
 msgid "Objects Without Orders"
-msgstr ""
+msgstr "Объекты без приказов"
 
 #: windows/xrc/panelStarMap.py:62 windows/xrc/panelStarMap.py:65
-#: windows/xrc/panelStarMap.py:66 windows/xrc/panelStarMap.py:66
+#: windows/xrc/panelStarMap.py:66
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:66
 msgid "Fit"
-msgstr ""
+msgstr "По умолчанию"
 
 #: windows/xrc/panelStarMap.py:63 windows/xrc/panelStarMap.py:66
-#: windows/xrc/panelStarMap.py:67 windows/xrc/panelStarMap.py:67
+#: windows/xrc/panelStarMap.py:67
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:67
 msgid "80%"
-msgstr ""
+msgstr "80%"
 
 #: windows/xrc/panelStarMap.py:64 windows/xrc/panelStarMap.py:67
-#: windows/xrc/panelStarMap.py:68 windows/xrc/panelStarMap.py:68
+#: windows/xrc/panelStarMap.py:68
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:68
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #: windows/xrc/panelStarMap.py:65 windows/xrc/panelStarMap.py:68
-#: windows/xrc/panelStarMap.py:69 windows/xrc/panelStarMap.py:69
+#: windows/xrc/panelStarMap.py:69
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:69
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 #: windows/xrc/panelStarMap.py:66 windows/xrc/panelStarMap.py:69
-#: windows/xrc/panelStarMap.py:70 windows/xrc/panelStarMap.py:70
+#: windows/xrc/panelStarMap.py:70
 #: build/lib.linux-i686-2.6/windows/xrc/panelStarMap.py:70
 msgid "Box"
-msgstr ""
+msgstr "Прямоугольник"
 
 #: windows/xrc/winDesign.py:99 windows/xrc/winDesign.py:102
 #: windows/xrc/winDesign.py:118 windows/xrc/winDesign.py:117
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:118
 msgid "0000"
-msgstr ""
+msgstr "0000"
 
 #: windows/xrc/winDesign.py:100 windows/xrc/winDesign.py:103
 msgid "Some Categories, Will Go, Here"
-msgstr ""
+msgstr "Некоторые Категории, Будут, Здесь"
 
 #: windows/xrc/winDesign.py:101 windows/xrc/winDesign.py:104
 #: windows/xrc/winDesign.py:121 windows/xrc/winDesign.py:120
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:121
 msgid "Property 1:"
-msgstr ""
+msgstr "Свойство 1:"
 
 #: windows/xrc/winDesign.py:102 windows/xrc/winDesign.py:105
 #: windows/xrc/winDesign.py:122 windows/xrc/winDesign.py:121
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:122
 msgid "The value of property 1"
-msgstr ""
+msgstr "Значение свойства 1"
 
 #: windows/xrc/winDesign.py:103 windows/xrc/winDesign.py:106
 #: windows/xrc/winDesign.py:123 windows/xrc/winDesign.py:122
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:123
 msgid "Property 2:"
-msgstr ""
+msgstr "Свойство 2:"
 
 #: windows/xrc/winDesign.py:104 windows/xrc/winDesign.py:107
 #: windows/xrc/winDesign.py:124 windows/xrc/winDesign.py:123
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:124
 msgid "The value of property 2"
-msgstr ""
+msgstr "Значение свойства 2"
 
 #: windows/xrc/winUpdate.py:83 windows/xrc/winUpdate.py:86
 #: windows/xrc/winUpdate.py:95 windows/xrc/winUpdate.py:125
 #: build/lib.linux-i686-2.6/windows/xrc/winUpdate.py:95
 msgid "TP: Universe update"
-msgstr ""
+msgstr "TP: Обновление Вселенной"
 
 #: windows/winMain.py:250 windows/winMain.py:253 windows/winMain.py:254
-#: windows/winMain.py:260 windows/winMain.py:238 windows/winMain.py:260
+#: windows/winMain.py:260 windows/winMain.py:238
 #: build/lib.linux-i686-2.6/windows/winMain.py:252
 msgid "C&onnect to Game\tCtrl-O"
-msgstr ""
+msgstr "&Подключиться к Игре\tCtrl-O"
 
 #: windows/winMain.py:251 windows/winMain.py:254 windows/winMain.py:255
-#: windows/winMain.py:261 windows/winMain.py:239 windows/winMain.py:261
+#: windows/winMain.py:261 windows/winMain.py:239
 #: build/lib.linux-i686-2.6/windows/winMain.py:253
 msgid "Download the &Universe\tCtrl-U"
-msgstr ""
+msgstr "&Загрузить Вселенную\tCtrl-U"
 
 #: tp/client/cache.py:479
 msgid "Received your player object..."
-msgstr ""
+msgstr "Получен ваш объект игрока..."
 
 #: tp/client/cache.py:565 libtpclient-py/tp/client/cache.py:620
 #: libtpclient-py/tp/client/cache.py:628
 #, python-format
 msgid "Received all %s..."
-msgstr ""
+msgstr "Получены все %s..."
 
 #: tp/client/cache.py:635 tp/client/cache.py:668
 #: libtpclient-py/tp/client/cache.py:761 libtpclient-py/tp/client/cache.py:698
 #, python-format
 msgid "Received all the %s.."
-msgstr ""
+msgstr "Получены все %s..."
 
 #: windows/xrc/orderList.py:54 windows/xrc/orderList.py:55
-#: windows/xrc/orderList.py:55
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:55
 msgid "Choice 1"
-msgstr ""
+msgstr "Выбор 1"
 
 #: windows/xrc/orderList.py:55 windows/xrc/orderList.py:56
-#: windows/xrc/orderList.py:56
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:56
 msgid "Choice 2"
-msgstr ""
+msgstr "Выбор 2"
 
 #: windows/xrc/winResourceSelect.py:58 windows/xrc/winResourceSelect.py:67
-#: windows/xrc/winResourceSelect.py:68 windows/xrc/winResourceSelect.py:68
+#: windows/xrc/winResourceSelect.py:68
 #: build/lib.linux-i686-2.6/windows/xrc/winResourceSelect.py:68
 msgid "Done"
-msgstr ""
+msgstr "Выполнено"
 
 #: windows/winUpdate.py:192 windows/winUpdate.py:203 windows/winUpdate.py:199
 #: build/lib.linux-i686-2.6/windows/winUpdate.py:203
 msgid "Update done!"
-msgstr ""
+msgstr "Обновление завершено!"
 
 #: tp/client/cache.py:464 libtpclient-py/tp/client/cache.py:465
 #: libtpclient-py/tp/client/cache.py:498
 msgid "Recieved all order descriptions..."
-msgstr ""
+msgstr "Получены все описания приказов..."
 
 #: tp/client/cache.py:473 libtpclient-py/tp/client/cache.py:475
 #: libtpclient-py/tp/client/cache.py:509
 msgid "Don't have any orders to get.."
-msgstr ""
+msgstr "У вас нет приказов для получения..."
 
 #: tp/client/cache.py:479 libtpclient-py/tp/client/cache.py:481
 #: libtpclient-py/tp/client/cache.py:515
 msgid "Don't have any messages to get.."
-msgstr ""
+msgstr "У вас нет сообщений для получения..."
 
 #: tp/client/cache.py:488 libtpclient-py/tp/client/cache.py:490
 msgid "Getting player objects..."
-msgstr ""
+msgstr "Получение объектов игроков..."
 
 #: tp/client/cache.py:506
 #, python-format
 msgid "Got player %s (id: %i)..."
-msgstr ""
+msgstr "Получен игрок %s (id: %i)..."
 
 #: tp/client/cache.py:510 libtpclient-py/tp/client/cache.py:512
 msgid "Received all player objects..."
-msgstr ""
+msgstr "Получены все объекты игроков"
 
 #: tp/client/cache.py:598
 #, python-format
 msgid "received all %s..."
-msgstr ""
+msgstr "Получены все %s..."
 
-#: doc/tips.txt:1 doc/tips.txt:1
+#: doc/tips.txt:1
 msgid ""
 "Welcome to tpclient-pywx. This client is written in python using wxPython "
 "and should allow to connect to any Thousand Parsec server."
 msgstr ""
+"Добро пожаловать в клиент Thousand Parsec tpclient-pywx. Этот клиент написан "
+"на языке Python с использованием wxPython и позволяет подключаться к любому "
+"серверу Thousand Parsec."
 
-#: doc/tips.txt:2 doc/tips.txt:2
+#: doc/tips.txt:2
 msgid "You can click on the star map to select objects!"
-msgstr ""
+msgstr "Вы можете кликать на звездную карту, чтобы выбирать объекты!"
 
-#: doc/tips.txt:3 doc/tips.txt:3
+#: doc/tips.txt:3
 msgid ""
 "The client has many shortcuts, check out the help file for more information."
 msgstr ""
+"В клиенте много клавиатурных сокращений. Загляните в файл помощи для "
+"дополнительной информации."
 
-#: doc/tips.txt:4 doc/tips.txt:4
+#: doc/tips.txt:4
 msgid ""
 "You can quickly issue a move order by right clicking where you want an "
 "object to go."
 msgstr ""
+"Вы можете быстро отдать приказ перемещение, кликая правой кнопкой мыши в том "
+"месте, куда хотите отправить объект."
 
-#: doc/tips.txt:5 doc/tips.txt:5
+#: doc/tips.txt:5
 msgid "The waypoint mode is a good way of setting up a large path quickly."
 msgstr ""
+"Режим контрольных точек - это хороший способ быстро задать длинный путь."
 
-#: doc/tips.txt:6 doc/tips.txt:6
+#: doc/tips.txt:6
 msgid ""
 "You can right click on the orders windows to access a bunch of quick "
 "functions including cut, copy and paste!"
 msgstr ""
+"Вы можете кликнуть правой кнопкой мыши на окне приказов, чтобы получить "
+"доступ к быстрым функциям, включая вырезать, копировать и вставить."
 
-#: doc/tips.txt:7 doc/tips.txt:7
+#: doc/tips.txt:7
 msgid ""
 "If the paste menu option is grayed out, the orders you are trying to paste "
 "are not valid on that object."
 msgstr ""
+"Если пункт меню Вставить выделен серым, то приказы, которые вы пытаетесь "
+"вставить, не подходят к данному объекту."
 
-#: doc/tips.txt:8 doc/tips.txt:8
+#: doc/tips.txt:8
 msgid ""
 "If you hold down shift a number of buttons change to allow you to quickly "
 "jump to first or last of things."
 msgstr ""
+"Если вы зажмете Shift, то некоторые кнопки изменятся, позволяя вам быстрее "
+"перейти к первому или последнему элементу."
 
-#: doc/tips.txt:9 doc/tips.txt:9
+#: doc/tips.txt:9
 msgid ""
 "The system filter box uses standard matching pattern, you can use ? for a "
 "single character or * for any number."
 msgstr ""
+"Фильтр систем использует стандартный шаблон сравнения, вы можете "
+"использовать ? как один любой символ или * как любое число любых символов."
 
-#: windows/main/winHelp.py:54 windows/main/winHelp.py:54
+#: windows/main/winHelp.py:54
 #: build/lib.linux-i686-2.6/windows/main/winHelp.py:54
 msgid "Warning - No Objects..."
-msgstr ""
+msgstr "Предупреждение - Нет Объектов..."
 
-#: windows/main/winHelp.py:55 windows/main/winHelp.py:55
+#: windows/main/winHelp.py:55
 #: build/lib.linux-i686-2.6/windows/main/winHelp.py:55
 msgid ""
 "\n"
@@ -2104,64 +2087,93 @@ msgid ""
 "\t</p></li>\n"
 "</ul>\n"
 msgstr ""
+"\n"
+"<p>\n"
+"Вам не принадлежит ни один объект. Возможные причины этого:\n"
+"</p>\n"
+"<ul>\n"
+"\t<li>Вы вошли как гостевой пользователь (guest).\n"
+"\t<p>\n"
+"\t\tНа большинстве серверов гости могут лишь заходить и осматривать "
+"Вселенную. Им не\n принадлежат никакие объекты. Это хорошо, когда вы хотите "
+"узнать, какова Вселенная, но не играть.\n"
+"\t</p><p>\n"
+"\t\tБольшинство серверов позволяют вам создавать учетные записи прямо из "
+"этого клиента. Это может быть сделано нажатием на кнопку \"Найти\" в окне "
+"подключения, вызывая таким образом\n окно просмотра серверов. <a "
+"href=\"local://serverbrowser\">(Открыть окно просмотра серверов.)</a>\n"
+"\t</p><br /></li>\n"
+"\t<li>Вы проиграли\n"
+"\t<p>\n"
+"\t\tIf you have not logged in for a long time, all your objects may have\n"
+"been conquered or destroyed. Some servers may let you create a new account "
+"and\n"
+"start again.\n"
+"\t</p><br /></li>\n"
+"\t<li>There is a problem.\n"
+"\t<p>\n"
+"\t\tThere could be a bug in some of the software, if you are sure neither\n"
+"of the two cases above are correct please report it \n"
+"<a href=\"http://sourceforge.net/tracker/?"
+"func=add&group_id=132078&atid=723099\">here</a>.\n"
+"\t</p></li>\n"
+"</ul>\n"
 
 #: windows/xrc/winHelp.py:70 windows/xrc/winHelp.py:71
-#: windows/xrc/winHelp.py:71
 #: build/lib.linux-i686-2.6/windows/xrc/winHelp.py:71
 msgid "Important Information...."
-msgstr ""
+msgstr "Важная информация....."
 
 #: windows/xrc/winHelp.py:71 windows/xrc/winHelp.py:72
-#: windows/xrc/winHelp.py:72
 #: build/lib.linux-i686-2.6/windows/xrc/winHelp.py:72
 msgid "Do not show this message again."
-msgstr ""
+msgstr "Не показывать это сообщения опять."
 
 #: windows/xrc/winHelp.py:72 windows/xrc/winHelp.py:73
-#: windows/xrc/winHelp.py:73 windows/xrc/winWaiting.py:78
+#: windows/xrc/winWaiting.py:78
 #: build/lib.linux-i686-2.6/windows/xrc/winHelp.py:73
 msgid "&Close"
-msgstr ""
+msgstr "&Закрыть"
 
 #: windows/winMain.py:256 windows/winMain.py:262 windows/winMain.py:240
-#: windows/winMain.py:262 build/lib.linux-i686-2.6/windows/winMain.py:254
+#: build/lib.linux-i686-2.6/windows/winMain.py:254
 msgid "Request End of &Turn\tCtrl-T"
-msgstr ""
+msgstr "Запрос &Конца Хода\tCtrl-T"
 
 #: windows/winMain.py:256 windows/winMain.py:262 windows/winMain.py:240
-#: windows/winMain.py:262 build/lib.linux-i686-2.6/windows/winMain.py:254
+#: build/lib.linux-i686-2.6/windows/winMain.py:254
 msgid "Send a message to the server requesting the turn end soon."
-msgstr ""
+msgstr "Отправить сообщение на сервер с запросом конца хода."
 
 #: windows/winMain.py:299 windows/winMain.py:277 windows/winMain.py:313
 #: build/lib.linux-i686-2.6/windows/winMain.py:305
 msgid "Online Help"
-msgstr ""
+msgstr "Помощь Онлайн"
 
 #: windows/winMain.py:299 windows/winMain.py:277 windows/winMain.py:313
 #: build/lib.linux-i686-2.6/windows/winMain.py:305
 msgid "Go to the online help page."
-msgstr ""
+msgstr "Перейти на веб-страницу помощи."
 
 #: windows/winMain.py:300 windows/winMain.py:278 windows/winMain.py:314
 #: build/lib.linux-i686-2.6/windows/winMain.py:306
 msgid "About"
-msgstr ""
+msgstr "О Программе"
 
 #: windows/winMain.py:300 windows/winMain.py:278 windows/winMain.py:314
 #: build/lib.linux-i686-2.6/windows/winMain.py:306
 msgid "About the client you are running..."
-msgstr ""
+msgstr "О запущенном клиенте..."
 
 #: windows/winMain.py:403 windows/winMain.py:384 windows/winMain.py:448
 #: build/lib.linux-i686-2.6/windows/winMain.py:441
 msgid "wxPython Client"
-msgstr ""
+msgstr "Клиент wxPython"
 
 #: windows/winMain.py:405 windows/winMain.py:386 windows/winMain.py:450
 #: build/lib.linux-i686-2.6/windows/winMain.py:443
 msgid "(C) 2001-2008 Thousand Parsec Developers"
-msgstr ""
+msgstr "(C) 2001-2008 Разработчики Thousand Parsec"
 
 #: windows/winMain.py:406 windows/winMain.py:387 windows/winMain.py:451
 #: build/lib.linux-i686-2.6/windows/winMain.py:444
@@ -2169,51 +2181,62 @@ msgid ""
 "This Thousand Parsec client, written in python, is an easy way to join and "
 "start playing in a Thousand Parsec game."
 msgstr ""
+"Это клиент Thousand Parsec, написанный на языке Python, являющийся простым "
+"способом подключиться и начать играть в игру Thousand Parsec."
 
 #: libtpclient-py/tp/client/cache.py:459 libtpclient-py/tp/client/cache.py:492
 #, python-format
 msgid ""
 "Got order description %(order)s (ID: %(id)i) (last modified at %(time)s)..."
 msgstr ""
+"Получено описание приказов %(orders)s (ID: %(id)i) (последнее изменение "
+"%(time)s)..."
 
 #: libtpclient-py/tp/client/cache.py:463 libtpclient-py/tp/client/cache.py:496
 #, python-format
 msgid ""
 "Failed to get order description with ID %(id)i (last modified at %(time)s)..."
 msgstr ""
+"Не удалось получить описание приказов с ID %(id)i (последнее изменение "
+"%(time)s)..."
 
 #: libtpclient-py/tp/client/cache.py:508
 #, python-format
 msgid "Got player %(player)s (ID: %(id)i)..."
-msgstr ""
+msgstr "Получен игрок %(player)s (ID: %(id)i)..."
 
 #: libtpclient-py/tp/client/cache.py:545
 #, python-format
 msgid "%(plural_name)s: Getting %(id)s as not cache().has_key(id)"
-msgstr ""
+msgstr "%(plural_name)s: Получение %(id)s как не cache().has_key(id)"
 
 #: libtpclient-py/tp/client/cache.py:548 libtpclient-py/tp/client/cache.py:559
 #, python-format
 msgid ""
 "%(plural_name)s: Getting %(id)s (%(name)s) as %(time)s > %(cached_time)s"
 msgstr ""
+"%(plural_name)s: Получение %(id)s (%(name)s) как %(time)s > %(cached_time)s"
 
 #: libtpclient-py/tp/client/cache.py:551 libtpclient-py/tp/client/cache.py:562
 #, python-format
 msgid ""
 "%(plural_name)s: Not getting %(id)s (%(name)s) as %(time)s <= %(cached_time)s"
 msgstr ""
+"%(plural_name)s: Не получение %(id)s (%(name)s) как %(time)s <= "
+"%(cached_time)s"
 
 #: libtpclient-py/tp/client/cache.py:557 libtpclient-py/tp/client/cache.py:568
 #, python-format
 msgid ""
 "Got %(singular_name)s %(name)s (ID: %(id)i) (last modified at %(time)s)..."
 msgstr ""
+"Получен %(singular_name)s %(name)s (ID: %(id)i) (последнее изменение "
+"%(time)s)..."
 
 #: libtpclient-py/tp/client/cache.py:565
 #, python-format
 msgid "Have %(ammount)i %(plural_name)s to get..."
-msgstr ""
+msgstr "Необходимо получить %(ammount)i %(plural_name)s..."
 
 #: libtpclient-py/tp/client/cache.py:576 libtpclient-py/tp/client/cache.py:584
 #, python-format
@@ -2221,6 +2244,8 @@ msgid ""
 "%(plural_name)s: Updating %(id)s (%(name)s - %(frame_name)s) with modtime %"
 "(time)s"
 msgstr ""
+"%(plural_name)s: Обновление %(id)s (%(name)s - %(frame_name)s) с интервалом %"
+"(time)s"
 
 #: libtpclient-py/tp/client/cache.py:579 libtpclient-py/tp/client/cache.py:587
 #, python-format
@@ -2228,130 +2253,137 @@ msgid ""
 "%(plural_name)s: Updating %(id)s (%(frame_name)s - New!) with modtime %(time)"
 "s"
 msgstr ""
+"%(plural_name)s: Обновление %(id)s (%(frame_name)s - Новый!) с интервалом "
+"%(time)"
+"s"
 
 #: libtpclient-py/tp/client/cache.py:584
 #, python-format
 msgid ""
 "Failed to get the %(singular_name)s which was previously called %(name)s."
-msgstr ""
+msgstr "Не удалось получить %(singular_name)s, который ранее вызвал %(name)s."
 
 #: libtpclient-py/tp/client/cache.py:587
 #, python-format
 msgid "Failed to get the %(singular_name)s with ID %(id)s."
-msgstr ""
+msgstr "Не удалось получить %(singular_name)s с ID %(id)s."
 
 #: libtpclient-py/tp/client/cache.py:602 libtpclient-py/tp/client/cache.py:610
 #, python-format
 msgid "Removing %(singular_name)s %(name)s as it has disappeared..."
-msgstr ""
+msgstr "Удаление %(singular_name)s %(name)s, поскольку он исчез..."
 
 #: libtpclient-py/tp/client/cache.py:626
 msgid "Getting orders..."
-msgstr ""
+msgstr "Получение приказов..."
 
 #: libtpclient-py/tp/client/cache.py:627
 #, python-format
 msgid "Have to get orders for %i objects..."
-msgstr ""
+msgstr "Необходимо получить приказы для %i объектов"
 
 #: libtpclient-py/tp/client/cache.py:649
 #, python-format
 msgid "Sending a request for all orders in queue %i on %s..."
-msgstr ""
+msgstr "Отправка запроса всем приказам в очереди %i на %s..."
 
 #: libtpclient-py/tp/client/cache.py:654
 #, python-format
 msgid "Skipping requesting orders on %s as there are none!"
-msgstr ""
+msgstr "Пропуск запроса приказов %s, поскольку они отсутствуют."
 
 #: libtpclient-py/tp/client/cache.py:674
 #, python-format
 msgid "Failed to get orders (id: %s) (%s)..."
-msgstr ""
+msgstr "Не удалось получить приказы (id: %s) (%s)..."
 
 #: libtpclient-py/tp/client/cache.py:678
 #, python-format
 msgid "Got %i orders (id: %s)..."
-msgstr ""
+msgstr "Получены %i приказов (id: %s)..."
 
 #: libtpclient-py/tp/client/cache.py:686
 msgid "Cleaning up any stray orders..."
-msgstr ""
+msgstr "Удаление лишних приказов..."
 
 #: libtpclient-py/tp/client/cache.py:689
 #, python-format
 msgid "Found stray orders for %s..."
-msgstr ""
+msgstr "Найдены лишние приказы для %s..."
 
 #: libtpclient-py/tp/client/cache.py:693
 msgid "Received all the orders..."
-msgstr ""
+msgstr "Получены все приказы..."
 
 #: libtpclient-py/tp/client/cache.py:710 libtpclient-py/tp/client/cache.py:647
 #, python-format
 msgid "Have to get %(name)s for %(ammount)i %(plural_name)s.."
-msgstr ""
+msgstr "Необходимо получить %(name)s для %(ammount)i %(plural_name)s.."
 
 #: libtpclient-py/tp/client/cache.py:720 libtpclient-py/tp/client/cache.py:657
 #, python-format
 msgid "Sending a request for all %(name)s on %(frame_name)s.."
-msgstr ""
+msgstr "Отправка запроса для всех %(name)s на %(frame_name)s.."
 
 #: libtpclient-py/tp/client/cache.py:724 libtpclient-py/tp/client/cache.py:661
 #, python-format
 msgid "Skipping requesting %(name)s on %(frame_name)s as there are none!"
-msgstr ""
+msgstr "Пропуск запроса %(name)s на %(frame_name)s, поскольку они отсутствуют!"
 
 #: libtpclient-py/tp/client/cache.py:742 libtpclient-py/tp/client/cache.py:679
 #, python-format
 msgid "Failed to get %(name)s for %(frame_name)s (ID: %(id)s) (%(result)s)..."
 msgstr ""
+"Не удалось получить %(name)s для %(frame_name)s (ID: %(id)s) (%(result)s)..."
 
 #: libtpclient-py/tp/client/cache.py:746 libtpclient-py/tp/client/cache.py:683
 #, python-format
 msgid "Got %(ammount)i %(name)s for %(frame_name)s (ID: %(id)s)..."
-msgstr ""
+msgstr "Получено %(ammount)i %(name)s для %(frame_name)s (ID: %(id)s)..."
 
 #: libtpclient-py/tp/client/cache.py:757 libtpclient-py/tp/client/cache.py:694
 #, python-format
 msgid "Found stray %(name)s for %(id)s.."
-msgstr ""
+msgstr "Найден лишний %(name)s for %(id)s.."
 
 #: libtpclient-py/tp/client/threads.py:419
 #: libtpclient-py/tp/client/threads.py:418
 msgid "Looking for running games..."
-msgstr ""
+msgstr "Поиск запущенных игр..."
 
 #: libtpclient-py/tp/client/threads.py:425
 #: libtpclient-py/tp/client/threads.py:424
 #, python-format
 msgid "Found %(game)s playing %(ruleset)s (%(version)s)"
-msgstr ""
+msgstr "Найдена %(game)s с правилами %(ruleset)s (%(version)s)"
 
 #: windows/winConnect.py:215 windows/winConnect.py:213
 #: windows/xrc/GameSetupWizard.py:48
 #: build/lib.linux-i686-2.6/windows/winConnect.py:213
 msgid "Browse"
-msgstr ""
+msgstr "Обзор"
 
 #: windows/winConnect.py:215 windows/winConnect.py:213
 #: build/lib.linux-i686-2.6/windows/winConnect.py:213
 msgid "Type filename or click browse to choose."
-msgstr ""
+msgstr "Напишите имя файла или кликните на Обзор для выбора."
 
 #: windows/winConnect.py:216 windows/winConnect.py:214
 #: build/lib.linux-i686-2.6/windows/winConnect.py:214
 msgid "Choose a File"
-msgstr ""
+msgstr "Выбрать Файл"
 
 #: windows/winConnect.py:265 windows/xrc/SinglePlayerWizard.py:473
-#: windows/winConnect.py:263 windows/xrc/SinglePlayerWizard.py:473
+#: windows/winConnect.py:263
 #: build/lib.linux-i686-2.6/windows/winConnect.py:263
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:473
 msgid ""
 "This wizard sets up a single player Thousand Parsec game using the servers, "
 "rulesets, and AI clients installed locally on your system."
 msgstr ""
+"Этот мастер создает и настраивает однопользовательскую игру Thousand Parsec "
+"с использованием серверов, правил и компьютерных игроков, установленных "
+"локально на вашем компьютере."
 
 #: windows/winConnect.py:272 windows/winConnect.py:270
 #: build/lib.linux-i686-2.6/windows/winConnect.py:270
@@ -2359,6 +2391,8 @@ msgid ""
 "You have at least one server installed on your system. Click the link below "
 "to install more."
 msgstr ""
+".У вас есть по крайней мере один сервер, установленный на ваше компьютере. "
+"Кликните на ссылке ниже, чтобы установить еще серверы."
 
 #: windows/winConnect.py:278 windows/winConnect.py:276
 #: build/lib.linux-i686-2.6/windows/winConnect.py:276
@@ -2366,6 +2400,9 @@ msgid ""
 "No servers were found on your system. You need a server to play a single "
 "player game. Click the link below for a list and installation instructions."
 msgstr ""
+"На вашем компьютере не было найдено ни одного сервера. Вам нужен сервер, "
+"чтобы играть в однопользовательскую игру. Кликните на ссылке ниже, чтобы "
+"установить их."
 
 #: windows/winConnect.py:317 windows/winConnect.py:315
 #: build/lib.linux-i686-2.6/windows/winConnect.py:315
@@ -2373,6 +2410,8 @@ msgid ""
 "Additional rulesets are available by installing other servers. Click the "
 "link below for a list and installation instructions."
 msgstr ""
+"Дополнительные наборы правил доступны через установку других серверов. "
+"Кликните на ссылке ниже, чтобы их установить."
 
 #: windows/winConnect.py:346 windows/winConnect.py:344
 #: build/lib.linux-i686-2.6/windows/winConnect.py:344
@@ -2380,6 +2419,8 @@ msgstr ""
 msgid ""
 "Configure options for the %(longname)s ruleset (leave blank to use default):"
 msgstr ""
+"Настройки набор правил %(longname)s (оставьте пустым для использования по "
+"умолчанию):"
 
 #: windows/winConnect.py:357 windows/winConnect.py:355
 #: build/lib.linux-i686-2.6/windows/winConnect.py:355
@@ -2389,6 +2430,9 @@ msgid ""
 "(longname)s ruleset. If you proceed, you will have no opponents in the game. "
 "Click the link below for a list and installation instructions."
 msgstr ""
+"На вашем компьютере не установлено ни одного компьютерного игрока, "
+"поддерживающего набор правил %(longname)s. Если вы продолжите, то у вас не "
+"будет противников в игре. Кликните на ссылке ниже, чтобы установить их."
 
 #: windows/winConnect.py:374 windows/winConnect.py:372
 #: build/lib.linux-i686-2.6/windows/winConnect.py:372
@@ -2396,35 +2440,40 @@ msgid ""
 "Multiple servers implement the ruleset you selected. Please select a server "
 "to use:"
 msgstr ""
+"Несколько серверов поддерживают набор правил, выбранный вами. Выберите "
+"сервер, который необходимо использовать:"
 
 #: windows/winConnect.py:390 windows/winConnect.py:388
 #: build/lib.linux-i686-2.6/windows/winConnect.py:388
 #, python-format
 msgid "Implements %(longname)s version %(version)s."
-msgstr ""
+msgstr "Поддерживает %(longname)s версию %(version)s."
 
 #: windows/winConnect.py:427 windows/winConnect.py:425
 #: build/lib.linux-i686-2.6/windows/winConnect.py:425
 msgid "Configure options for this server (leave blank to use default):"
 msgstr ""
+"Настройки для этого сервера (оставьте пустым для использования по умолчанию):"
 
 #: windows/winConnect.py:491 windows/winConnect.py:489
 #: build/lib.linux-i686-2.6/windows/winConnect.py:489
 msgid "Edit Opponent"
-msgstr ""
+msgstr "Редактировать Противника"
 
 #: windows/winConnect.py:582 windows/xrc/SinglePlayerWizard.py:493
-#: windows/winConnect.py:580 windows/xrc/SinglePlayerWizard.py:493
+#: windows/winConnect.py:580
 #: build/lib.linux-i686-2.6/windows/winConnect.py:580
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:493
 msgid "New Opponent"
-msgstr ""
+msgstr "Новый Противник"
 
 #: windows/winConnect.py:629 windows/winConnect.py:627
 #: build/lib.linux-i686-2.6/windows/winConnect.py:627
 msgid ""
 "The Thousand Parsec client will now connect to your local single player game."
 msgstr ""
+"Клиент Thousand Parsec сейчас подключится к вашей локальной "
+"однопользовательской игре."
 
 #: windows/winConnect.py:886 windows/winConnect.py:893
 #: build/lib.linux-i686-2.6/windows/winConnect.py:885
@@ -2432,11 +2481,13 @@ msgid ""
 "Could not start single player game. Please check the console log for more "
 "information. "
 msgstr ""
+"Невозможно начать однопользовательскую игру. Проверьте лог консоли для "
+"дополнительной информации."
 
 #: windows/winConnect.py:889 windows/winConnect.py:896
 #: build/lib.linux-i686-2.6/windows/winConnect.py:888
 msgid "Single Player Error"
-msgstr ""
+msgstr "Ошибка однопользовательской игры"
 
 #: windows/winConnect.py:1055 windows/winConnect.py:1070
 #: build/lib.linux-i686-2.6/windows/winConnect.py:1054
@@ -2447,49 +2498,49 @@ msgid ""
 "\n"
 "Would you instead like to autoconnect to %(server)s.\n"
 msgstr ""
+"\n"
+"Клиент настроен на автоматическое подключение к %(key)s.\n"
+"\n"
+"Вы хотите автоматически подключаться к %(server)s?\n"
 
-#: windows/xrc/infoOrderQueue.py:49 windows/xrc/infoOrderQueue.py:49
+#: windows/xrc/infoOrderQueue.py:49
 #: build/lib.linux-i686-2.6/windows/xrc/infoOrderQueue.py:49
 msgid "Queue ID: "
-msgstr ""
+msgstr "ID Очереди:"
 
-#: windows/xrc/infoOrderQueue.py:50 windows/xrc/infoOrderQueue.py:50
+#: windows/xrc/infoOrderQueue.py:50
 #: build/lib.linux-i686-2.6/windows/xrc/infoOrderQueue.py:50
 msgid "# of orders: "
-msgstr ""
+msgstr "Число приказов:"
 
-#: windows/xrc/infoOrderQueue.py:51 windows/xrc/infoOrderQueue.py:51
+#: windows/xrc/infoOrderQueue.py:51
 #: build/lib.linux-i686-2.6/windows/xrc/infoOrderQueue.py:51
 msgid "Allowed Types: "
-msgstr ""
+msgstr "Допустимые Типы:"
 
-#: windows/xrc/infoResourcePanel.py:48 windows/xrc/infoResourcePanel.py:48
+#: windows/xrc/infoResourcePanel.py:48
 #: build/lib.linux-i686-2.6/windows/xrc/infoResourcePanel.py:48
 msgid "LABEL"
-msgstr ""
+msgstr "НАДПИСЬ"
 
-#: windows/xrc/infoResourcePanel.py:49 windows/xrc/infoResourcePanel.py:49
+#: windows/xrc/infoResourcePanel.py:49
 #: build/lib.linux-i686-2.6/windows/xrc/infoResourcePanel.py:49
 msgid "Stored: "
-msgstr ""
+msgstr "Хранится:"
 
-#: windows/xrc/infoResourcePanel.py:50 windows/xrc/infoResourcePanel.py:50
+#: windows/xrc/infoResourcePanel.py:50
 #: build/lib.linux-i686-2.6/windows/xrc/infoResourcePanel.py:50
 msgid "Minable: "
-msgstr ""
+msgstr "Минимизируемо:"
 
 #: windows/xrc/infoResourcePanel.py:51
 #: build/lib.linux-i686-2.6/windows/xrc/infoResourcePanel.py:51
 msgid "Inaccessible: "
-msgstr ""
+msgstr "Недоступно:"
 
 #: windows/xrc/infoReferenceOrder.py:44 windows/xrc/infoReferenceObject.py:48
 #: windows/xrc/infoSize.py:42 windows/xrc/infoReferencePlayer.py:48
 #: windows/xrc/infoInteger.py:42 windows/xrc/infoReferenceOrderDesc.py:44
-#: windows/xrc/infoSize.py:42 windows/xrc/infoInteger.py:42
-#: windows/xrc/infoReferenceOrder.py:44 windows/xrc/infoReferencePlayer.py:48
-#: windows/xrc/infoReferenceObject.py:48
-#: windows/xrc/infoReferenceOrderDesc.py:44
 #: build/lib.linux-i686-2.6/windows/xrc/infoSize.py:42
 #: build/lib.linux-i686-2.6/windows/xrc/infoInteger.py:42
 #: build/lib.linux-i686-2.6/windows/xrc/infoReferenceOrder.py:44
@@ -2497,227 +2548,223 @@ msgstr ""
 #: build/lib.linux-i686-2.6/windows/xrc/infoReferenceObject.py:48
 #: build/lib.linux-i686-2.6/windows/xrc/infoReferenceOrderDesc.py:44
 msgid "0"
-msgstr ""
+msgstr "0"
 
-#: windows/xrc/infoReferenceObject.py:49 windows/xrc/infoReferenceObject.py:49
+#: windows/xrc/infoReferenceObject.py:49
 #: build/lib.linux-i686-2.6/windows/xrc/infoReferenceObject.py:49
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
-#: windows/xrc/DownloadProgressPanel.py:52
 #: windows/xrc/DownloadProgressPanel.py:52
 #: build/lib.linux-i686-2.6/windows/xrc/DownloadProgressPanel.py:52
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
-#: windows/xrc/DownloadProgressPanel.py:53
 #: windows/xrc/DownloadProgressPanel.py:53
 #: build/lib.linux-i686-2.6/windows/xrc/DownloadProgressPanel.py:53
 msgid "0 kb/s"
-msgstr ""
+msgstr "0 кб/с"
 
-#: windows/xrc/DownloadProgressPanel.py:54
 #: windows/xrc/DownloadProgressPanel.py:54
 #: build/lib.linux-i686-2.6/windows/xrc/DownloadProgressPanel.py:54
 msgid "N/A s"
-msgstr ""
+msgstr "Н/Д"
 
 #: windows/xrc/winDownloadManager.py:62 windows/main/winDownloadManager.py:104
-#: windows/main/winDownloadManager.py:104 windows/xrc/winDownloadManager.py:62
 #: build/lib.linux-i686-2.6/windows/main/winDownloadManager.py:104
 #: build/lib.linux-i686-2.6/windows/xrc/winDownloadManager.py:62
 msgid "Downloads"
-msgstr ""
+msgstr "Загрузки"
 
-#: windows/xrc/winConnect.py:112 windows/xrc/winConnect.py:112
+#: windows/xrc/winConnect.py:112
 #: build/lib.linux-i686-2.6/windows/xrc/winConnect.py:112
 msgid "&Single Player"
-msgstr ""
+msgstr "&Однопользовательская игра"
 
-#: windows/xrc/SinglePlayerWizard.py:471 windows/xrc/SinglePlayerWizard.py:471
+#: windows/xrc/SinglePlayerWizard.py:471
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:471
 msgid "TP: Single Player Game"
-msgstr ""
+msgstr "TP: Однопользовательская игра"
 
-#: windows/xrc/SinglePlayerWizard.py:472 windows/xrc/SinglePlayerWizard.py:472
+#: windows/xrc/SinglePlayerWizard.py:472
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:472
 msgid "Single Player Game"
-msgstr ""
+msgstr "Однопользовательская игра"
 
-#: windows/xrc/SinglePlayerWizard.py:474 windows/xrc/SinglePlayerWizard.py:474
+#: windows/xrc/SinglePlayerWizard.py:474
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:474
 msgid "Download Servers"
-msgstr ""
+msgstr "Скачать Серверы"
 
-#: windows/xrc/SinglePlayerWizard.py:475 windows/xrc/SinglePlayerWizard.py:475
+#: windows/xrc/SinglePlayerWizard.py:475
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:475
 msgid "Select Ruleset"
-msgstr ""
+msgstr "Выберите Набор Правил"
 
-#: windows/xrc/SinglePlayerWizard.py:476 windows/xrc/SinglePlayerWizard.py:476
+#: windows/xrc/SinglePlayerWizard.py:476
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:476
 msgid "Choose a ruleset for your game:"
-msgstr ""
+msgstr "Выберете набор правил для вашей игры:"
 
-#: windows/xrc/SinglePlayerWizard.py:477 windows/xrc/SinglePlayerWizard.py:477
+#: windows/xrc/SinglePlayerWizard.py:477
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:477
 msgid "The ruleset to use."
-msgstr ""
+msgstr "Используемый набор правил."
 
-#: windows/xrc/SinglePlayerWizard.py:478 windows/xrc/SinglePlayerWizard.py:478
+#: windows/xrc/SinglePlayerWizard.py:478
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:478
 msgid "Download Additional Servers/Rulesets"
-msgstr ""
+msgstr "Скачать Допольнительные Серверы/Наборы Правил"
 
-#: windows/xrc/SinglePlayerWizard.py:479 windows/xrc/SinglePlayerWizard.py:479
+#: windows/xrc/SinglePlayerWizard.py:479
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:479
 msgid "Select Server"
-msgstr ""
+msgstr "Выберите Сервер"
 
-#: windows/xrc/SinglePlayerWizard.py:480 windows/xrc/SinglePlayerWizard.py:480
+#: windows/xrc/SinglePlayerWizard.py:480
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:480
 msgid "The server to use."
-msgstr ""
+msgstr "Используемый сервер"
 
-#: windows/xrc/SinglePlayerWizard.py:481 windows/xrc/SinglePlayerWizard.py:481
+#: windows/xrc/SinglePlayerWizard.py:481
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:481
 msgid "Ruleset Options"
-msgstr ""
+msgstr "Настройки Набора Правил"
 
-#: windows/xrc/SinglePlayerWizard.py:482 windows/xrc/SinglePlayerWizard.py:482
+#: windows/xrc/SinglePlayerWizard.py:482
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:482
 msgid "Server Options"
-msgstr ""
+msgstr "Настройки Сервера"
 
-#: windows/xrc/SinglePlayerWizard.py:483 windows/xrc/SinglePlayerWizard.py:483
+#: windows/xrc/SinglePlayerWizard.py:483
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:483
 msgid "Opponents"
-msgstr ""
+msgstr "Противники"
 
-#: windows/xrc/SinglePlayerWizard.py:484 windows/xrc/SinglePlayerWizard.py:484
+#: windows/xrc/SinglePlayerWizard.py:484
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:484
 msgid "This page lets you add AI opponents to your game."
-msgstr ""
+msgstr "Эта страница позволяет вам добавлять компьютерных противников в игру."
 
-#: windows/xrc/SinglePlayerWizard.py:486 windows/xrc/SinglePlayerWizard.py:486
+#: windows/xrc/SinglePlayerWizard.py:486
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:486
 msgid "The AI client to use."
-msgstr ""
+msgstr "Используемый компьютерный противник."
 
-#: windows/xrc/SinglePlayerWizard.py:487 windows/xrc/SinglePlayerWizard.py:487
+#: windows/xrc/SinglePlayerWizard.py:487
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:487
 msgid "The AI description will go here."
-msgstr ""
+msgstr "Описание компьютерного противника должно быть здесь"
 
-#: windows/xrc/SinglePlayerWizard.py:489 windows/xrc/SinglePlayerWizard.py:489
+#: windows/xrc/SinglePlayerWizard.py:489
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:489
 msgid "Options"
-msgstr ""
+msgstr "Настройки"
 
-#: windows/xrc/SinglePlayerWizard.py:494 windows/xrc/SinglePlayerWizard.py:494
+#: windows/xrc/SinglePlayerWizard.py:494
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:494
 msgid "No Opponents Found"
-msgstr ""
+msgstr "Противников не найденов"
 
-#: windows/xrc/SinglePlayerWizard.py:495 windows/xrc/SinglePlayerWizard.py:495
+#: windows/xrc/SinglePlayerWizard.py:495
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:495
 msgid "Download AI Clients"
-msgstr ""
+msgstr "Скачать всех компьютерных противников"
 
-#: windows/xrc/SinglePlayerWizard.py:496 windows/xrc/SinglePlayerWizard.py:496
+#: windows/xrc/SinglePlayerWizard.py:496
 #: build/lib.linux-i686-2.6/windows/xrc/SinglePlayerWizard.py:496
 msgid "Setup Complete"
-msgstr ""
+msgstr "Настройка завершена"
 
 #: windows/xrc/infoPosition3D.py:42 windows/xrc/infoVelocity3D.py:42
-#: windows/xrc/infoVelocity3D.py:42 windows/xrc/infoPosition3D.py:46
+#: windows/xrc/infoPosition3D.py:46
 #: build/lib.linux-i686-2.6/windows/xrc/infoVelocity3D.py:42
 #: build/lib.linux-i686-2.6/windows/xrc/infoPosition3D.py:42
 msgid "(0, 0, 0)"
-msgstr ""
+msgstr "(0, 0, 0)"
 
 #: windows/xrc/winDesign.py:120 windows/xrc/winDesign.py:119
 #: build/lib.linux-i686-2.6/windows/xrc/winDesign.py:120
 msgid "Edit Categories"
-msgstr ""
+msgstr "Редактировать Категории"
 
-#: windows/xrc/orderUnimplemented.py:42 windows/xrc/orderUnimplemented.py:42
+#: windows/xrc/orderUnimplemented.py:42
 #: build/lib.linux-i686-2.6/windows/xrc/orderUnimplemented.py:42
 msgid "Unimplemented"
-msgstr ""
+msgstr "Не реализовано"
 
-#: windows/xrc/infoReferencePlayer.py:49 windows/xrc/infoReferencePlayer.py:49
+#: windows/xrc/infoReferencePlayer.py:49
 #: build/lib.linux-i686-2.6/windows/xrc/infoReferencePlayer.py:49
 msgid "Send Message"
-msgstr ""
+msgstr "Послать сообщение"
 
-#: windows/xrc/orderList.py:57 windows/xrc/orderList.py:57
+#: windows/xrc/orderList.py:57
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:57
 msgid "Number of things to add or remove."
-msgstr ""
+msgstr "Число сущностей для добавления или удаления."
 
-#: windows/xrc/orderList.py:59 windows/xrc/orderList.py:59
+#: windows/xrc/orderList.py:59
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:59
 msgid "Add items."
-msgstr ""
+msgstr "Добавить сущности."
 
-#: windows/xrc/orderList.py:61 windows/xrc/orderList.py:61
+#: windows/xrc/orderList.py:61
 #: build/lib.linux-i686-2.6/windows/xrc/orderList.py:61
 msgid "Delete selected."
-msgstr ""
+msgstr "Удалить выбранное."
 
-#: windows/xrc/winFilterManager.py:70 windows/xrc/winFilterManager.py:70
+#: windows/xrc/winFilterManager.py:70
 #: build/lib.linux-i686-2.6/windows/xrc/winFilterManager.py:70
 msgid "Add filters:"
-msgstr ""
+msgstr "Добавить фильтры:"
 
-#: windows/xrc/winFilterManager.py:71 windows/xrc/winFilterManager.py:71
+#: windows/xrc/winFilterManager.py:71
 #: build/lib.linux-i686-2.6/windows/xrc/winFilterManager.py:71
 msgid "Remove filters:"
-msgstr ""
+msgstr "Удалить фильтры:"
 
-#: windows/xrc/winFilterManager.py:72 windows/xrc/winFilterManager.py:72
+#: windows/xrc/winFilterManager.py:72
 #: build/lib.linux-i686-2.6/windows/xrc/winFilterManager.py:72
 msgid "Show filtered messages"
-msgstr ""
+msgstr "Показать отфильтрованные сообщения"
 
 #: windows/main/panelMessage.py:411 windows/main/panelMessage.py:420
 #: build/lib.linux-i686-2.6/windows/main/panelMessage.py:414
 #, python-format
 msgid "%(msgnum)i of %(allmsgs)i"
-msgstr ""
+msgstr "%(msgnum)i из %(allmsgs)i"
 
 #: windows/main/panelOrder.py:537 windows/main/panelOrder.py:450
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:539
 msgid "No orders available"
-msgstr ""
+msgstr "Нет доступных приказов"
 
 #: windows/main/panelOrder.py:951 windows/main/panelOrder.py:920
 #: build/lib.linux-i686-2.6/windows/main/panelOrder.py:953
 msgid "No player"
-msgstr ""
+msgstr "Нет игрока"
 
-#: windows/main/winDesign.py:259 windows/main/winDesign.py:259
+#: windows/main/winDesign.py:259
 #: build/lib.linux-i686-2.6/windows/main/winDesign.py:259
 msgid "NewDesign"
-msgstr ""
+msgstr "Новый чертеж"
 
 #: windows/winUpdate.py:253 windows/winUpdate.py:264 windows/winUpdate.py:256
 #: windows/winUpdate.py:267 build/lib.linux-i686-2.6/windows/winUpdate.py:253
 #: build/lib.linux-i686-2.6/windows/winUpdate.py:264
 #, python-format
 msgid "%(value)s of %(range)s"
-msgstr ""
+msgstr "%(value)s из %(range)s"
 
 #: libtpclient-py/tp/client/cache.py:556
 #, python-format
 msgid "%(plural_name)s: Getting new object with %(id)s."
-msgstr ""
+msgstr "%(plural_name)s: Получение нового объекта с %(id)s."
 
 #: libtpclient-py/tp/client/cache.py:573
 #, python-format
 msgid "Have %(amount)i %(plural_name)s to get..."
-msgstr ""
+msgstr "Необходимо получить %(amount)i %(plural_name)s to get..."
 
 #: libtpclient-py/tp/client/cache.py:592
 #, python-format
@@ -2725,47 +2772,49 @@ msgid ""
 "Failed to get the %(singular_name)s which was previously called %(name)s. (%"
 "(error)s)"
 msgstr ""
+"Не удалось получить %(singular_name)s, который ранее вызвал %(name)s. (%"
+"(error)s)"
 
 #: libtpclient-py/tp/client/cache.py:595
 #, python-format
 msgid "Failed to get the %(singular_name)s with ID %(id)s. (%(error)s)"
-msgstr ""
+msgstr "Не удалось получить %(singular_name)s с ID %(id)s. (%(error)s)"
 
 #: windows/main/winGameInfo.py:10 windows/xrc/winGameInfo.py:83
 msgid "Game Info"
-msgstr ""
+msgstr "Информация об игре"
 
 #: windows/main/panelMessage.py:331
 msgid "0 of 0"
-msgstr ""
+msgstr "0 из 0"
 
 #: windows/main/winWaiting.py:24 windows/main/winWaiting.py:76
 msgid "Waiting"
-msgstr ""
+msgstr "Другие игроки"
 
 #: windows/main/winWaiting.py:33
 msgid "Player ID"
-msgstr ""
+msgstr "ID Игрока"
 
 #: windows/main/winWaiting.py:34
 msgid "Player Name"
-msgstr ""
+msgstr "Имя Игрока"
 
 #: windows/main/winWaiting.py:35
 msgid "Player Status"
-msgstr ""
+msgstr "Состояние Игрока"
 
 #: windows/main/winWaiting.py:78
 msgid "Ready!"
-msgstr ""
+msgstr "Готов!"
 
 #: windows/main/winWaiting.py:93
 msgid "You have requested end of turn"
-msgstr ""
+msgstr "Вы запросили конец хода"
 
 #: windows/main/winWaiting.py:95 windows/xrc/winWaiting.py:74
 msgid "You have not requested end of turn"
-msgstr ""
+msgstr "Вы не запросили конец хода"
 
 #: windows/winConnect.py:845
 #: build/lib.linux-i686-2.6/windows/winConnect.py:837
@@ -2774,6 +2823,9 @@ msgid ""
 "\n"
 "Would you like to save this account's details?\n"
 msgstr ""
+"Вы не заходили под этой учетной записью ранее.\n"
+"\n"
+"Вы хотели бы сохранить эту учетную запись?\n"
 
 #: windows/winConnect.py:862
 #: build/lib.linux-i686-2.6/windows/winConnect.py:854
@@ -2782,88 +2834,90 @@ msgid ""
 "this account, would you like to update the saved \n"
 "information with the new password?\n"
 msgstr ""
+"Вы используете другой пароль для этой учетной записи.\n"
+"Хотели бы вы сохранить этот пароль?\n"
 
 #: windows/winMain.py:260 build/lib.linux-i686-2.6/windows/winMain.py:252
 msgid "Connect to a different Game"
-msgstr ""
+msgstr "Подключиться к другой Игре"
 
 #: windows/winMain.py:264
 msgid "&Preferences\tCtrl-P"
-msgstr ""
+msgstr "&Настройки\tCtrl-P"
 
 #: windows/winMain.py:306 build/lib.linux-i686-2.6/windows/winMain.py:298
 #, python-format
 msgid "Show %s"
-msgstr ""
+msgstr "Показать %s"
 
 #: windows/winMain.py:319 build/lib.linux-i686-2.6/windows/winMain.py:311
 msgid "Panels"
-msgstr ""
+msgstr "Панели"
 
 #: windows/winUpdate.py:190
 msgid "Connected!"
-msgstr ""
+msgstr "Подключено!"
 
 #: windows/winUpdate.py:228
 #, python-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: windows/xrc/winGameInfo.py:73
 msgid "Server Info"
-msgstr ""
+msgstr "Информация о Сервере"
 
 #: windows/xrc/winGameInfo.py:74
 msgid "Server URL"
-msgstr ""
+msgstr "URL Сервера"
 
 #: windows/xrc/winGameInfo.py:75
 msgid "Server version"
-msgstr ""
+msgstr "Версия Сервера"
 
 #: windows/xrc/winGameInfo.py:76
 msgid "Admin email"
-msgstr ""
+msgstr "Почта администратора"
 
 #: windows/xrc/winGameInfo.py:77
 msgid "Game info"
-msgstr ""
+msgstr "Информация об игре"
 
 #: windows/xrc/winGameInfo.py:79
 msgid "Ruleset"
-msgstr ""
+msgstr "Набор правил"
 
 #: windows/xrc/winGameInfo.py:80
 msgid "Number of players"
-msgstr ""
+msgstr "Число игроков"
 
 #: windows/xrc/winGameInfo.py:81
 msgid "Your username"
-msgstr ""
+msgstr "Ваше имя"
 
 #: windows/xrc/winGameInfo.py:82
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: windows/xrc/panelOrder.py:69
 msgid "&New Order"
-msgstr ""
+msgstr "&Новый Приказ"
 
 #: windows/xrc/winUpdate.py:101
 msgid "Connection"
-msgstr ""
+msgstr "Подключение"
 
 #: windows/xrc/winUpdate.py:117
 msgid "Automatically close"
-msgstr ""
+msgstr "Автоматически закрыть"
 
 #: windows/xrc/winUpdate.py:118
 msgid "Check this to automatically close this window on successfull download."
-msgstr ""
+msgstr "Автоматически закрывать окно при успешной загрузке."
 
 #: windows/xrc/infoResourcePanel.py:51
 msgid "Inacc.: "
-msgstr ""
+msgstr "Неточно: "
 
 #: windows/xrc/panelMessage.py:75
 msgid ""
@@ -2887,28 +2941,48 @@ msgid ""
 "</body>\n"
 "</html>"
 msgstr ""
+"<html>\n"
+"<body>\n"
+"<center>\n"
+"\t<table cols=1 width=\"100%\">\n"
+"\t\t<tr>\n"
+"\t\t\t<td><b>Тема:</b> Вас не любят!\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<td>\n"
+"\t\t\tВы не получили сообщений на этом ходу!<br><br>\n"
+"\t\t\tНа самом деле, если вы не получили сообщений, то наиболее вероятно,\n"
+"\t\t\tчто ваш клиент не смог загрузить результаты с сервера.\n"
+"\t\t\tПопробуйте загрузить заново или перезапустить клиент.\n"
+"\t\t\t</td>\n"
+"\t\t</tr>\n"
+"\t </table>\n"
+"</center>\n"
+"</body>\n"
+"</html>"
 
 #: windows/xrc/winWaiting.py:75
 msgid ""
 "The turn will end as soon as all the players get their buttocks into gear "
 "and click the end of turn button. Or turn time runs out."
 msgstr ""
+"Ход закончится, когда все игроки запросят конец хода или кончится время хода."
 
 #: windows/xrc/winWaiting.py:76
 msgid "Waiting for:"
-msgstr ""
+msgstr "Ожидание игроков:"
 
 #: windows/xrc/winWaiting.py:77
 msgid "&End turn"
-msgstr ""
+msgstr "&Конец хода"
 
 #: windows/xrc/GameSetupWizard.py:37
 msgid "Game Setup Wizard"
-msgstr ""
+msgstr "Мастер Настройки Игры"
 
 #: windows/xrc/GameSetupWizard.py:38
 msgid "Setup a Thousand Parsec Game"
-msgstr ""
+msgstr "Настроить Игру Thousand Parsec"
 
 #: windows/xrc/GameSetupWizard.py:39
 msgid ""
@@ -2924,22 +2998,34 @@ msgid ""
 "You can load an old game or start a new game.\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"Этот мастер проведет вас через шаги создания временного сервера Thousand "
+"Parsec на вашем компьютере.\n"
+"</p><p>\n"
+"Если вы хотите, чтобы другие люди заходили в эту игру, пока ваш клиент не "
+"запущен, вам НЕ СЛЕДУЕТ использовать этого мастера. В таком случае следуйте "
+"инструкциям <a href=\"http://www.thousandparsec.net/tp/gettingstarted."
+"php#server\">здесь</"
+"a>.\n"
+"</p><p>\n"
+"Вы можете загрузить старую игру или начать новую.\n"
+"</p>"
 
 #: windows/xrc/GameSetupWizard.py:40
 msgid "Would you like to?"
-msgstr ""
+msgstr "Что вы хотите?"
 
 #: windows/xrc/GameSetupWizard.py:41
 msgid "&Start New Game"
-msgstr ""
+msgstr "&Начать Новую Игру"
 
 #: windows/xrc/GameSetupWizard.py:42
 msgid "&Load Existing Game"
-msgstr ""
+msgstr "&Загрузить Существующую Игру"
 
 #: windows/xrc/GameSetupWizard.py:43
 msgid "Please Select the Game to Load"
-msgstr ""
+msgstr "Выберите Игру для Загрузки"
 
 #: windows/xrc/GameSetupWizard.py:44
 msgid ""
@@ -2948,22 +3034,25 @@ msgid ""
 "If your game is not listed here try finding the game using the Browse "
 "button. "
 msgstr ""
+"Внизу перечислены все игры, найденные на этом компьютере.\n"
+"\n"
+"Если ваша игра отсутствует здесь, попробуйте найти ее с помощью кнопки Обзор."
 
 #: windows/xrc/GameSetupWizard.py:45
 msgid "Please select a game to load:"
-msgstr ""
+msgstr "Пожалуйста, выберите игру для загрузки:"
 
 #: windows/xrc/GameSetupWizard.py:46
 msgid "&Test Game 1"
-msgstr ""
+msgstr "&Тестовая Игра 1"
 
 #: windows/xrc/GameSetupWizard.py:47
 msgid "&Test Game 2"
-msgstr ""
+msgstr "&Тестовая Игра 2"
 
 #: windows/xrc/GameSetupWizard.py:49
 msgid "Please select the Ruleset to use"
-msgstr ""
+msgstr "Выберите Набор Правил"
 
 #: windows/xrc/GameSetupWizard.py:50
 msgid ""
@@ -2974,22 +3063,28 @@ msgid ""
 "Each ruleset can be completely different game play and structure. For more "
 "rulesets you can checkout the Thousand Parsec website."
 msgstr ""
+"Внизу перечислены все наборы правил, поддерживаемые этим сервером. \n"
+"\n"
+"Вам необходимо выбрать набор правил для использования в этой игре.\n"
+"\n"
+"Каждый набор правил может иметь различный стиль и правила игры. Чтобы "
+"увидеть другие наборы правил, зайдите на сайт Thousand Parsec."
 
 #: windows/xrc/GameSetupWizard.py:51
 msgid "Please select a ruleset to use:"
-msgstr ""
+msgstr "Выберите набор правил для использования:"
 
 #: windows/xrc/GameSetupWizard.py:52
 msgid "&Test Ruleset 1"
-msgstr ""
+msgstr "&Тестовый набор правил 1"
 
 #: windows/xrc/GameSetupWizard.py:53
 msgid "&Test Ruleset 2"
-msgstr ""
+msgstr "&Тестовый набор правил 2"
 
 #: windows/xrc/GameSetupWizard.py:54
 msgid "Server Setup!"
-msgstr ""
+msgstr "Настройка Сервера!"
 
 #: windows/xrc/GameSetupWizard.py:55
 msgid ""
@@ -3001,23 +3096,32 @@ msgid ""
 "\n"
 "You can either create a new account or connect to the server straight away."
 msgstr ""
+"Вы успешно настроили сервер и сейчас он запущен. Информация, которой вы "
+"можете поделиться с друзьями, находится ниже.\n"
+"\n"
+"Если ваши друзья находятся в вашей локальной сети, сервер должен появиться в "
+"Обзоре Серверов.\n"
+"\n"
+"Вы можете создать новую учетную запись или подключиться напрямую к серверу."
 
 #: windows/xrc/GameSetupWizard.py:56
 msgid "Host URL:"
-msgstr ""
+msgstr "URL Компьютера:"
 
 #: windows/xrc/GameSetupWizard.py:57
 msgid "Connect to the newly created server."
-msgstr ""
+msgstr "Подключиться к только что созданному серверу."
 
 #: windows/xrc/GameSetupWizard.py:59
 msgid "Create a new account on the newly created server."
-msgstr ""
+msgstr "Создать новую учетную запись на только что созданном сервере."
 
 #: windows/xrc/GameSetupWizard.py:60
 msgid "New Account"
-msgstr ""
+msgstr "Новая учетная запись."
 
 #: windows/xrc/infoPosition3D.py:47
 msgid "Zoom To Here"
-msgstr ""
+msgstr "Приблизить Здесь"
+
+
